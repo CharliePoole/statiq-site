@@ -1,0 +1,66 @@
+Order: 0
+ArchiveSources: => GetString("PostSources")
+ArchiveDestination: >
+  => GetInt("Index") <= 1 ? $"index.html" : $"page/{GetInt("Index")}.html"
+ArchivePageSize: 5
+ArchiveOrderKey: Published
+ArchiveOrderDescending: true
+ArchiveTitle: => GetString("Title")
+---
+@section Header {
+    <header class="masthead">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+            <div class="site-heading">
+            <h2>Charlie Poole</h2>
+            <hr class="small"/>
+            <span class="subheading">
+                Welcome to my new website, which I plan to use for both personal and
+                software-related posts going forward. I will be adding older material
+                gradually as well as making new posts.
+            </span>
+            <span class="subheading">
+                Until I finish reviewing my old technical posts and migrating material
+                that is still relevant, those interested should check
+            </span>
+            <a class="navbar-brand" style="color: #fff; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;" href="http://charliepoole.com">CharliePoole.com</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    </header>
+}
+
+<div class="container-sm-height">
+    <div class="row row-sm-height">
+        <div class="col-md-9 right-border col-sm-height">
+            @Html.Partial("/_posts.cshtml", Document)
+        </div>
+        <div class="col-md-3 mt-4 mt-md-0 col-sm-height">
+            @{
+                IDocument[] tags = Outputs.Get("tags.html")?.GetChildren().OrderByDescending(x => x.GetChildren().Count()).Take(10).ToArray() ?? Array.Empty<IDocument>();
+                if (tags.Length > 0)
+                {
+                    <div>
+                        <h5>Tags</h5>
+                        @foreach (IDocument tag in Outputs.Get("tags.html").GetChildren().OrderByDescending(x => x.GetChildren().Count()).Take(10))
+                        {
+                            string postCount = tag.GetChildren().Count().ToString();
+                            <a href="@Context.GetLink(tag)" class="badge badge-light"> @tag.GetTitle() (@postCount)</a>
+                        }
+                        <div class="mt-3">
+                            <div class="float-sm-right">
+                                <a class="btn btn-sm btn-primary" href="@Context.GetLink(Outputs.Get("tags.html"))" role="button">All Tags <i class="fas fa-angle-double-right"></i></a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                }
+            }
+            
+            @Html.Partial("/_sidebar.cshtml")
+        </div>
+    </div>
+</div>

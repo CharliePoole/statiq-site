@@ -1,0 +1,86 @@
+@media only screen and (min-width: 768px) {
+  .intro-header .site-heading,
+  .intro-header .post-heading,
+  .intro-header .page-heading {
+    padding: 50px 0;
+  }
+  .intro-header .site-heading h1,
+  .intro-header .page-heading h1 {
+    font-size: 36px;
+  }
+}
+
+.bg-custom {
+  background-color: #003e80;
+}
+
+.btn-custom { color: #fff; background-color: #003e80; border-color: #003e80; }
+
+div.family-member {
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 150px;
+    max-height: 200px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    border: 2px solid black;
+}
+
+#mainNav .navbar-brand { padding: 10px 20px 10px 0; }
+
+div.pic { 
+  /*margin: 0 auto 2em auto;*/
+  padding: 0;
+  float: left;
+  width: 100%; 
+}
+div.pic hr {
+  display: none;
+}
+div.pic img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto 2em;
+}
+
+img.left {
+  float: left;
+  margin: 0 1em 2em 0;
+}
+
+img.right {
+  float: right;
+  margin: 0 0 2em 1em;
+}
+
+@media screen and (min-width: 601px) {
+  div.pic hr {
+    display: block;
+  }
+  div.odd img, div.left img {
+      float: left;
+      margin: 0 1em 2em 0;
+  }
+  div.even img, div.right img {
+      float: right;
+      margin: 0 0 2em 1em;
+  }
+}
+
+.post-preview .post-title {
+  clear: both;
+}
+
+.post-preview img {
+  width: 160px;
+  height: auto;
+}
+
+hr.small {
+  max-width: 200px;
+  margin: 15px auto;
+  border-width: 2px;
+  border-color: white;
+}
