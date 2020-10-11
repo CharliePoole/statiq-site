@@ -105,3 +105,17 @@ hr.small {
   border-width: 2px;
   border-color: white;
 }
+
+/* Override code coloring in prism.css */
+code {
+  color: navy;
+}
+
+.token.keyword {
+	color: blue;
+}
+
+.token.function,
+.token.class-name {
+  color: #2b91af;
+}
