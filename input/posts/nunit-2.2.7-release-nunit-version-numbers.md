@@ -1,6 +1,6 @@
 Title: "NUnit 2.2.7 Release / NUnit Version Numbers"
 Published: 19 Feb 2006
-Tags: [NUnit, It's  the Tests]
+Tags: [NUnit,It's the Tests]
 ---
 NUnit 2.2.7 has just been released. It fixes some bugs that were filed against the 2.2.6 release, although some of them had been in the code for a while. You can read about what's fixed in this latest release, as well as earlier releases, in the <a href="http://nunit.org/?p=releaseNotes">Release Notes</a>.
 

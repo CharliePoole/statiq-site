@@ -1,6 +1,6 @@
 Title: "NUnit 2.4.1 Release"
 Published: 04 May 2007
-Tags: NUnit
+Tags: [NUnit,It's the Tests]
 ---
 I just released NUnit 2.4. It fixes a few issues that slipped into the 2.4 release an makes some minor improvements. I wanted to get this release out because I'll be travelling for a few months and won't be in a position to do further releases until July or August.
 
