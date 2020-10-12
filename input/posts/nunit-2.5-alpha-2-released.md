@@ -1,6 +1,6 @@
 Title: "NUnit 2.5 Alpha 2 Released"
 Published: 08 May 2008
-Tags: NUnit
+Tags: [NUnit,It's the Tests]
 ---
 With a European trip about to start, I decided to release a second Alpha so that the new stuff would get some visibility. I won't be doing another release till late June, so please <a href="http://nunit.org/?p=download">give this one a try</a>.
 

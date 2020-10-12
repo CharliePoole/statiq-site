@@ -1,6 +1,6 @@
 Title: "NUnit 2.5 and VS2008"
 Published: 27 Jun 2008
-Tags: NUnit
+Tags: [NUnit,It's the Tests]
 ---
 Thanks to a contribution from Microsoft, kindly arranged by Stephen Walther, I now have a copy of Visual Studio 2008 - and NUnit has a VS2008 build! It's available in CVS and will be part of the Alpha-3 release in a week or two. NUnit operates pretty much on a shoestring these days, now that I'm semi-retired, and contributions like this help a lot.
 
