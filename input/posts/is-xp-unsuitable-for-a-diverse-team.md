@@ -2,10 +2,11 @@ Title: "Is XP Unsuitable for a Diverse Team?"
 Published: 17 May 2018
 Tags: [XP,It's the Tests]
 ---
-The discussion started on Twitter with this comment from Sarah Mei:
+A post on Twitter claimed that Agile won't work for a heterogeneous team because it's practices were developed by a "bunch of white dudes." While that isn't something I want to believe, the comments indicated that many folks did believe it. When a large body of opinion contradicts my assumptions, I like to pause for thought.
 
->Wondering why all the agile/XP stuff (like pairing, TDD, etc) doesn’t seem to work for a heterogenous team?
->It’s because they were developed by a bunch of white dudes. The practices  assume the practitioners all have A LOT of built-in privilege.
+The post that started it all was by Sarah Mei:
+
+>Wondering why all the agile/XP stuff (like pairing, TDD, etc) doesn’t seem to work for a heterogenous team? It’s because they were developed by a bunch of white dudes. The practices  assume the practitioners all have A LOT of built-in privilege.
 
 This got a lot of reaction, as you might expect, with more heat than light evident. Much of that discussion was about what is and isn't civil behavior on Twitter. I'm not going there because I think that ship sailed a long time ago and it's not coming back.
 

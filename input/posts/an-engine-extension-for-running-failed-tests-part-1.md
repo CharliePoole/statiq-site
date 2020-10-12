@@ -1,4 +1,5 @@
-Title: "An Engine Extension for Running Failed Tests - Part 1: Creating the Extension"
+Title: An Engine Extension for Running Failed Tests
+Lead: "Part 1: Creating the Extension"
 Published: 22 Sep 2016
 Tags: [NUnit,It's the Tests]
 ---
