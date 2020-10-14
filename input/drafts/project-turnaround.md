@@ -1,8 +1,9 @@
 Title: "Project Turnaround: XP to the Rescue?"
 Published: 3/26/2002
-Tags: [Technical Articles, Extreme Programming]
+Tags: [Articles, XP]
+IsPost: true
 ---
-<blockquote style="text-align:center"><b>NOTE:</b> This article is slightly modified from a <a href="xp2002paper.html">workshop paper</a> I presented at XP2002.</blockquote>
+<blockquote style="text-align:center"><b>NOTE:</b> This article is slightly modified from a <a href="/drafts/xp2002paper.html">workshop paper</a> I presented at XP2002.</blockquote>
 
 In July of 2001, I spent three weeks trying to turn a project around. I had only recently learned about Extreme Programming and this was my first attempt at using it. The short-term results were quite spectacular, the long-term, less so.
 

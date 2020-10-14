@@ -1,6 +1,6 @@
 Title: "Code Generation in NUnit"
 Published: 08 Jan 2009
-Tags: [NUnit,It's  the Tests]
+Tags: [NUnit,It's the Tests]
 ---
 The latest code for NUnit 2.5 includes seven generated files, including the Assert class and most of the classes that allow you to write constraint expressions using the NUnit fluent syntax. Some people have asked if generating these files is worth the effort, since the code created is very simple anyway.
 
