@@ -1,3 +1,4 @@
 Host: charliepoole.org
 SiteTitle: CharliePoole.org
 LinkHideExtensions: false
+PostSources: "{posts,family*}/*"
