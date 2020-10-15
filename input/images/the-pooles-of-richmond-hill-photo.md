@@ -1,5 +1,5 @@
 Title: The Pooles Of Richmond Hill
-ShowInNavbar: false
+IsPost: false
 ---
 <img src="/images/thepoolesofrichmondhill.jpg" style="width: 100%">
   
