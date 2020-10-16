@@ -1,38 +1,10 @@
-Order: 0
-ArchiveSources: => GetString("PostSources")
-ArchiveDestination: >
-  => GetInt("Index") <= 1 ? $"index.html" : $"page/{GetInt("Index")}.html"
-ArchivePageSize: 10
+Order: 5
+ArchiveSources: family-history/*
+ArchiveDestination: "family-history.html"
 ArchiveOrderKey: Published
 ArchiveOrderDescending: true
-ArchiveTitle: => GetString("Title")
+ArchiveTitle: Family History
 ---
-@section Header {
-    <header class="masthead">
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="row">
-        <div class="col-md-12">
-            <div class="site-heading">
-            <h2>Charlie Poole</h2>
-            <hr class="small"/>
-            <span class="subheading">
-                Welcome to my new website, which I plan to use for both personal and
-                software-related posts going forward. I will be adding older material
-                gradually as well as making new posts.
-            </span>
-            <span class="subheading">
-                Until I finish reviewing my old technical posts and migrating material
-                that is still relevant, those interested should check
-            </span>
-            <a class="navbar-brand" style="color: #fff; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;" href="http://charliepoole.com">CharliePoole.com</a>
-            </div>
-        </div>
-        </div>
-    </div>
-    </header>
-}
-
 <div class="container-sm-height">
     <div class="row row-sm-height">
         <div class="col-md-9 right-border col-sm-height">

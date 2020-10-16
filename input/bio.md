@@ -1,5 +1,5 @@
 Title: About Me
-Order: 1
+Order: 10
 ---
 This page is an informal biography covering my education, career and other
 interests.
