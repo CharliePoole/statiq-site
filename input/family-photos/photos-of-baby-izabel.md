@@ -1,6 +1,6 @@
 Title: Photos of Baby Izabel
 Published: 1/27/2002
-Tags: Family Photos
+Tags: Family Members
 Excerpt: <img class="left" src="/images/baby_izabel_image4.jpg">Photos of Izabel Poole shortly after she was born.
 ---
 Photos of Izabel Poole shortly after she was born.

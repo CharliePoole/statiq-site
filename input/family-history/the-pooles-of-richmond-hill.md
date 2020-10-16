@@ -1,6 +1,6 @@
 Title: The Pooles of Richmond Hill
 Published: 9/15/2020
-Tags: Family History
+Tags: Poole Family
 ---
 <a href="/images/the-pooles-of-richmond-hill-photo.html"><img class="left" width=320 src="/images/thepoolesofrichmondhill.jpg"></a>
 For me, "the Pooles" will always mean my father's family. Their quirks dominated
