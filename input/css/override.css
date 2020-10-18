@@ -2,6 +2,8 @@ body {
   background-color: #e6f2ff;
 }
 
+header.masthead .page-heading a, header.masthead .post-heading a, header.masthead .site-heading a { color: white; }
+
 #content {
   margin: -40px 0 20px;
   padding: 10px 20px;
