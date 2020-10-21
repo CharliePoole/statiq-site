@@ -21,33 +21,49 @@ until the migration is complete.
 
 * Moved posts in my `It's the Tests` blog to this site under `Technical Posts` with the
   tag `It's the Tests` in addition to the subject tags they already had. A few posts were
-  dropped, mostly announcements of other articles, which will be moved here anyway.
+  dropped, mostly announcements of other articles, which will be moved here anyway. A 
+  notice has been posted on the old blog.
 
 * Added a `Site Status` page (this one).
 
 ### Ongoing
 
-* Check all old posts for broken links and fix.
+* Check all old posts for broken links and fix. Remove posts from `CharliePoole.com`
+  as the new versions are verified. **Currently** all posts prior to **May, 2008** have been
+  updated.
+
+* Port technical articles and remove them from `CharliePoole.com`.
+  **Current Status:** Completed **1 out of 13** articles.
 
 ### To Do
 
-* Remove the old blog posts from `CharliePoole.com` and leave a notice there.
+#### General
+
+* Add a contact page
 
 * Add background images to (at least) the index pages.
 
-* Update my bio on the site and possibly move elsewhere.
+* Update my bio and resume.
 
-* Automate rebuilding and deploying the site.
+* Automate rebuild and deployment of the site.
 
-* Port technical articles and remove them from `CharliePoole.com`.
+* Decide whether to support comments on blog posts and how.
+
+#### Technical Content
+
+* Move important past events as post-dated blog posts.
+
+* Create downloads of some of my presentations.
 
 * Add pagination to the `Technical Posts` topic, which contains a large number of posts.
   The two `Family` topics will eventually need this as well.
 
-* Decide whether to support comments on blog posts and how.
-
 * Remove the old `.com` site and point the URL to the new site.
 
+#### Family Content
+
 * Add additional `Family` content.
+
+#### Travel Posts
 
 * Add a `Travel` topic and add content.
