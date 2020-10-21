@@ -9,7 +9,7 @@ The info on their site says that they acquire domains to protect them from squat
 
 Maybe I'm over-reacting, but I've been burned by folks who speculatively snap up domains before. Our local (Seattle) XP user group lost use of **seattlexp.com** when one of the members forgot to renew it. It was in the hands of one of these "investors" shortly after and we haven't been able to get it back. These guys look like the same sort of outfit, with the extra wrinkle of trying to gain support by "giving back" the domains - at least as long as they feel like letting you use them.
 
-In searching for **opendomain.org**, I found that they are in a dispute with the creators of WordPress, coincidentally the very software I'm using to blog this.  See <a href="http://bourne.wordpress.com/2005/10/20/wordpresscom-vs-opendomainorg/">this entry</a> for example. I don't know anything about the facts of this case, but my sympathies go with the folks who contribute their efforts to creating this great open source program.
+In searching for **opendomain.org**, I found that they are in a dispute with the creators of WordPress, coincidentally the very software I'm using to blog this. I don't know anything about the facts of this case, but my sympathies go with the folks who contribute their efforts to creating this great open source program.
 
 Since **opendomain.org** doesn't give you any way to contact them - except to "apply" for a domain name - I'm blogging this in the hope that someone will tell me who they are.
 

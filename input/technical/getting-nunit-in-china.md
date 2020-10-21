@@ -5,7 +5,7 @@ Tags: [NUnit,It's the Tests]
 A Chinese programmer (anonymous until he tells me otherwise) recently wrote to ask me for a copy of NUnit 2.2.7. For some reason, it appears that Sourceforge is not accessible in China. This seems odd to me, since it's hardly a political site, but the ways of bureaucracy in any country can be hard to fathom.
 
 <!--more-->
-Anyway, rather than simply sending a copy, I asked him to help me set up a site that he he and others could access. After experimenting with various urls, we were able to ascertain that a download page on my personal site would work. So now I've set up I've set up a <a href="http://charliepoole.org/?p=downloads">special page</a> for use by programmers in countries that can't use Sourceforge.
+Anyway, rather than simply sending a copy, I asked him to help me set up a site that he he and others could access. After experimenting with various urls, we were able to ascertain that a download page on my personal site would work. So now I've set up I've set up a special page for use by programmers in countries that can't use Sourceforge.
 
 >Of course, anyone can use this page, but I hope those who are able to use Sourceforge will continue to do so. The Sourceforge site maintains statistics on NUnit downloads that I haven't taken the time to implement on my personal site.
 

@@ -12,5 +12,3 @@ protected override TestSuite MakeSuite(Type type)
 ```
 
 Without this fix, the builder simply creates an NUnitTestFixture and no new behavior takes place when the test is run.
-
-Alternatively, you can download a new copy of the affected source file <a href="http://charliepoole.org/source.php?p=SampleFixtureExtensionBuilder.cs">here</a>.

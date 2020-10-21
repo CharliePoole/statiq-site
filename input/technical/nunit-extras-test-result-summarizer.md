@@ -19,7 +19,7 @@ nunit-summary TestResult*.xml -out=*.txt
 
 See the help for the command for other things you can do, including using your own xsl to transform the output.
 
-The nunit-summary program is available on the <a href="https://github.com/nunit/nunit-summary">GitHub</a>.
+The nunit-summary program is available on <a href="https://github.com/nunit/nunit-summary">GitHub</a>.
 
 ---
 

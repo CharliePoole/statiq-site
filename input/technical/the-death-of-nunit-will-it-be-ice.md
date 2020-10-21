@@ -2,7 +2,7 @@ Title: "The Death of NUnit - Will it be Ice?"
 Published: 06 Nov 2005
 Tags: [Open Source, NUnit, It's the Tests]
 ---
-A recent post on the <a href="http://sourceforge.net/forum/forum.php?forum_id=33693">NUnit Open Discussion Forum</a> on Sourceforge asked “Is NUnit Dead?” I have to admit: the question irked me a bit. But reflecting on it has led me to a few conclusions that I’ll share here.
+A recent post on the NUnit Open Discussion Forum on Sourceforge asked “Is NUnit Dead?” I have to admit: the question irked me a bit. But reflecting on it has led me to a few conclusions that I’ll share here.
 
 <!--more-->
 The original poster felt that NUnit might be dead because it hadn’t released for quite a while. Other posters seem to feel that the unit-testing capabilities built into Visual Studio 2005 will kill us off. So there are two ways to go...
@@ -84,20 +84,20 @@ I think the reason people think NUnit is freezing is that it just works, is wide
 
 ---
 
-Here's an item from our <a href="http://nunit.com/devwiki.cgi?NunitVision" rel="nofollow">NUnitVision</a>...
+Here's an item from our NUnit Vision Statement...
 
 <blockquote>
 We are usable by other programs. We'd like to make it easy for other software to run tests programatically using NUnit. To that end, we will provide interfaces that make it easy for people to write their own clients. We can't guarantee that those interfaces will never change, but we'll make an effort to keep them reasonably stable.
 </blockquote>
 
-Seems like I forgot this when I put together the <a href="http://nunit.com/devwiki.cgi?NunitRoadMap" rel="nofollow">NunitRoadMap</a>,  so I just added an item to provide a standard interface for other programs running tests. Right now, we have several ways you can run tests from other programs and it's up to the programmer to guess which ones we plan to hold relatively constant. Publishing a standard interface should help.
+Seems like I forgot this when I put together the NunitRoadMap,  so I just added an item to provide a standard interface for other programs running tests. Right now, we have several ways you can run tests from other programs and it's up to the programmer to guess which ones we plan to hold relatively constant. Publishing a standard interface should help.
 
 We do keep in touch with some developers of programs that work with NUnit. Lately, I've focused on RUnit, TestDriven, NAnt, NUnitAsp, NUnitForms and TestRunner. ZaneDebug only recently came to my attention. I'll take a look when I get a chance. As for the "competition" - Microsoft, csUnit, mbUnit - I generally look at what they do and see if the same function fits with NUnit. MbUnit has a number of features that don't fit the NUnit vision when considered as core features, but which would work well as Addins.
 >Charlie, Tuesday, November 8, 2005
 
 ---
 
-There is so much innovation possible in unit testing that it's a shame NUnit is moving so slow.  Take a look at http://testng.org and you will get an idea of where Java testing is headed.
+There is so much innovation possible in unit testing that it's a shame NUnit is moving so slow.  Take a look at testng.org and you will get an idea of where Java testing is headed.
 >John, Thursday, November 10, 2005
 
 ---
@@ -154,7 +154,7 @@ Regarding the quote from Eddie's blog, I don't think it's appropriate to write a
 
 ---
 
-Guys, I wanted to congratulate you for all the hard work you are given to this Project, and as an Open Source Project Leader myself I feel that all you are doing it is just plain amazing... Full details on my blog: http://flois.blogspot.com/2006/05/frozen-death-is-all-arround-us.html#links
+Guys, I wanted to congratulate you for all the hard work you are given to this Project, and as an Open Source Project Leader myself I feel that all you are doing it is just plain amazing... Full details on my blog: http://flois.blogspot.com/2006/05/frozen-death-is-all-around-us.html#links
 >Federico Lois, Sunday, May 21, 2006
 
 ---
@@ -169,8 +169,6 @@ Thank you!
 Gary: Google is your friend. :-)
 
 Actually, you are on the main NUnit site here. If you want a basic intro, look for online articles on NUnit or follow some links on this site.
-
-Charlei
 >Charlie, Wednesday, September 20, 2006
 
 ---
@@ -193,14 +191,11 @@ hi,
 
 Hi, 
 
-Actually i am trying to get values from the session object created by my login page inside the NUnit test application. Can you kindly guide regarding this. I have 4 variables that i store in my session object when i am successfully logged in the Login page. Now in my test application i need this information to test other pages in the project (bcecause of authentication) so i need to get these(session variables) information.
+Actually i am trying to get values from the session object created by my login page inside the NUnit test application. Can you kindly guide regarding this. I have 4 variables that i store in my session object when i am successfully logged in the Login page. Now in my test application i need this information to test other pages in the project (because of authentication) so i need to get these(session variables) information.
 
 Kindly guide me regarding this.
 
 Thanking you.
-
-Sincerely, 
-Swimmy.
 >Swimmy, Saturday, July 1, 2006
 
 ---
@@ -218,13 +213,11 @@ Speaking of ebb and flow, this blog has been pretty inactive for a while, even w
 Gunjan and Swimmy:
 
 My blog is not a convenient place to provide general help or to discuss things other than the blog posts themselves. Please try the nunit-user mailing list or the help forum on sourceforge. Either one will get you the same help, so just pick the format you prefer.
-
-Charlie
 >Charlie, Sunday, July 2, 2006
 
 ---
 
-samad: I suggest you look at the documentation and ask some specific questions on the nunit-users mailing list, rather than here. You can subscribe to the list at http://lists.sourceforge.net/lists/listinfo/nunit-users. If you would like advice about the suitability of NUnit for your use, you should tell us there what you want to use it for.
+samad: I suggest you look at the documentation and ask some specific questions on the nunit-users mailing list, rather than here. You can subscribe to the list on sourceforge. If you would like advice about the suitability of NUnit for your use, you should tell us there what you want to use it for.
 >Charlie, Monday, August 7, 2006
 
 ---

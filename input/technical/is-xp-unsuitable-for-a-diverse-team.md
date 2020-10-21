@@ -1,6 +1,6 @@
 Title: "Is XP Unsuitable for a Diverse Team?"
 Published: 17 May 2018
-Tags: [XP,It's the Tests]
+Tags: [Extreme Programming,It's the Tests]
 ---
 A post on Twitter claimed that Agile won't work for a heterogeneous team because it's practices were developed by a "bunch of white dudes." While that isn't something I want to believe, the comments indicated that many folks did believe it. When a large body of opinion contradicts my assumptions, I like to pause for thought.
 

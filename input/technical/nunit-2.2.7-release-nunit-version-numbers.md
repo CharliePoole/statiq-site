@@ -2,7 +2,7 @@ Title: "NUnit 2.2.7 Release / NUnit Version Numbers"
 Published: 19 Feb 2006
 Tags: [NUnit,It's the Tests]
 ---
-NUnit 2.2.7 has just been released. It fixes some bugs that were filed against the 2.2.6 release, although some of them had been in the code for a while. You can read about what's fixed in this latest release, as well as earlier releases, in the <a href="http://nunit.org/?p=releaseNotes">Release Notes</a>.
+NUnit 2.2.7 has just been released. It fixes some bugs that were filed against the 2.2.6 release, although some of them had been in the code for a while. You can read about what's fixed in this latest release, as well as earlier releases, in the Release Notes.
 
 <!--more-->
 The numbering of these releases seems to confuse people and I have to admit it was probably a mistake. NUnit 2.2.4 was a new production release, just like 2.0, 2.1 and 2.2. NUnit 2.2.5, 2.2.6 and now 2.2.7 are all fixes on the same set of features found in 2.2.4. Bug fix releases are intended to be safe and easy upgrades, in the sense that we don't add much new code to cause new bugs. We only fix what's broken.
@@ -19,7 +19,7 @@ Having those releases allows us to be a little more daring and experimental in o
 
 ---
 
-Yaron: Not yet. We plan to move to running tests optionally in a separate process first, then to running in remote machines. See our <a href="http://nunit.com/nunit/?p=roadmap" rel="nofollow">Roadmap</a> for other future directions.
+Yaron: Not yet. We plan to move to running tests optionally in a separate process first, then to running in remote machines. See our Roadmap for other future directions.
 >Charlie, Sunday, March 5, 2006
 
 ---

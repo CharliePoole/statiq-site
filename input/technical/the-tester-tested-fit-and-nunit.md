@@ -4,7 +4,7 @@ Tags: [NUnit,TDD,It's the Tests]
 ---
 NUnit has lots of tests of its own - unit tests that is. It even has some fairly high-level tests that don't fit well into the normal unit-testing paradigm. But, up to now, the only acceptance tests were manual - a list of things I do before uploading a new release. Since they are manual, they don't get run all that often and surprises happen.
 
-I've been meaning to do some experimenting with writing Fit tests for NUnit, and finally got some time last weekend. You can see the results of my initial experiments <a href="http://nunit.com/blogs/wp-content/uploads/2006/10/results.html">here</a>.
+I've been meaning to do some experimenting with writing Fit tests for NUnit, and finally got some time last weekend. You can see the results of my initial experiments [here](files/fit-results.html).
 
 For each row, the Fit fixture takes a snippet of code out of the first column, compiles it using the ICodeCompiler interface, loads the resulting assembly into an AppDomain and runs the tests. In addition to verifying that the code compiles, it checks the shape of the test tree that is produced and verifies that the correct number of tests were run, skipped or ignored and if the count of successes and failures are as expected.
 

@@ -2,7 +2,7 @@ Title: I "Discover" Ruby
 Published: 29 Jul 2006
 Tags: [OSCON,Ruby,TDD,It's the Tests]
 ---
-This week at OSCON 2006 I finally learned some Ruby. I've been meaning to do this and learning by listening to <a href="http://blogs.pragprog.com/cgi-bin/pragdave.cgi">Dave Thomas</a> and <a href="http://clarkware.com/cgi/blosxom/">Mike Clark</a> seemed like it would be much more fun than simply reading a book. Turns out I was right.
+This week at OSCON 2006 I finally learned some Ruby. I've been meaning to do this and learning by listening to Dave Thomas and Mike Clark seemed like it would be much more fun than simply reading a book. Turns out I was right.
 
 <!--more-->
 In the process, I discovered a cool thing about Ruby and invented a really neat way to use it. Except not really: other folks already knew about my "discovery" and my "invention" has been invented a few times before! Oh well! It was fun and I learned a lot. If you don't know Ruby, some of this may be new to you as well. If you do know it, perhaps you'll find something to smile about here.

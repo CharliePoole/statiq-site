@@ -2,7 +2,7 @@ Title: "OpenDomain.org Revisited"
 Published: 24 Aug 2006
 Tags: [NUnit,Open Source,It's the Tests]
 ---
-In an [earlier article](/posts/whats-with-opendomain.org.html) I wrote about my concern with <a href="http://opendomain.org">OpenDomain.org</a>. They had acquired the nunit.net domain andwere offering me the right to use it in exchange for a link. I felt uncomfortable about this, particularly after I learned about their <a href="http://akbourne.com/blog/2005/10/20/wordpresscom-vs-opendomainorg/">dispute</a> over the <a href="http://www.wordpress.com">WordPress.com</a> domain. 
+In an [earlier article](whats-with-opendomain.org.html) I wrote about my concern with OpenDomain.org. They had acquired the nunit.net domain and were offering me the right to use it in exchange for a link. I felt uncomfortable about this, particularly after I learned about their dispute over the WordPress.com domain.
 
 <!--more-->
 One comment to my post came from Ric Johnson, the guy behind OpenDomain.org. He said "Hey, we're the good guys!" and invited some dialog. I responded with a follow-up comment, saying, in part...
@@ -15,7 +15,7 @@ A few weeks back I got a note from Ric. He apologized for not having followed up
 
 We arranged a phone chat, during which my impressions of what he is doing had to be modified somewhat. Ric explained that some acquiring and making domains available for use is the way he chooses to contribute to open source. He feels that he cannot generally give away the domains without any strings because some of them might be misused. Unfortunately, this means that the terms under which he makes the domains available strike may folks as suspicious. Ric says himself that he has made a number of mistakes in how he has presented and explained the program.
 
-Some of the domains Ric has contributed cost quite a bit of money to acquire, so I understand that he would want some assurance about their use. There are probably other ways he could handle it, but it's his project and this is the approach he has chosen. If people don't like the terms, they shouldn't take the domains, of course. But I'm pretty well convinced that <a href="http://www.opendomain.org">OpenDomain.org</a> has its heart in the right place.
+Some of the domains Ric has contributed cost quite a bit of money to acquire, so I understand that he would want some assurance about their use. There are probably other ways he could handle it, but it's his project and this is the approach he has chosen. If people don't like the terms, they shouldn't take the domains, of course. But I'm pretty well convinced that OpenDomain.org has its heart in the right place.
 
 _**Disclaimer:** NUnit.net has been transferred free and clear to my name. I'll have some kind of link on the site, but that's at my own discretion. My only advice to those considering using one of these domains is to read the terms and decide for yourself on the merits.
 _

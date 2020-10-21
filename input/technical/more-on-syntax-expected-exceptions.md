@@ -96,7 +96,7 @@ Charlie
 
 Hi Charlie,
 
-Yes, that is what we are doing and that also clarifies my earlier post, of course we are not "keeping track" of exceptions; rMock catches them and matches them against the current constraint (if there is one) and descides if the exception should remain caught or be rethrown (as an error or failure depending on wether a constraint exist or not).
+Yes, that is what we are doing and that also clarifies my earlier post, of course we are not "keeping track" of exceptions; rMock catches them and matches them against the current constraint (if there is one) and decides if the exception should remain caught or be rethrown (as an error or failure depending on wether a constraint exist or not).
 
 Glad you liked the idea!
 /Joakim

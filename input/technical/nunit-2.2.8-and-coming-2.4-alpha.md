@@ -6,4 +6,4 @@ I'm afraid I'm pretty erratic about announcing new NUnit releases on the blog.  
 
 Everything since 2.2.4 has been bug fixes. Some folks are wondering where the features they asked for are. They're in the development codeline, which you can get from CVS on Sourceforge if you want to build it yourself. We also issue periodic snapshots, the last of which was 2.3.6119, released on April 29, 2006.
 
-We're quite close to an alpha release of NUnit 2.4. It features lots of cool things, including new Asserts, assembly and namespace level SetUp and execution of tests in multiple AppDomains. You can read more about  it in our <a href="http://nunit.com/nunit/?p=roadmap">Roadmap</a>.
+We're quite close to an alpha release of NUnit 2.4. It features lots of cool things, including new Asserts, assembly and namespace level SetUp and execution of tests in multiple AppDomains. You can read more about  it in our Roadmap.

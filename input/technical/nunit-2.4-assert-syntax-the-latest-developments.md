@@ -2,7 +2,7 @@ Title: "NUnit 2.4 Assert Syntax - the Latest Developments"
 Published: 12 Mar 2007
 Tags: [NUnit,TDD,It's the Tests]
 ---
-NUnit 2.4 RC2 is out now, correcting a naming conflict with several mock object frameworks that was present in RC1. You can download it <a href="http://nunit.org/?p=download">here</a>. For a full list of the extensive new features in NUnit 2.4, check out the <a href="http://nunit.org/?p=releaseNotes&r=2.4">release notes</a>.
+NUnit 2.4 RC2 is out now, correcting a naming conflict with several mock object frameworks that was present in RC1. You can download it at [NUnit.org](http://nunit.org/). For a full list of the extensive new features in NUnit 2.4, check out the [Release Notes](https://docs.nunit.org/2.4/releaseNotes.html).
 
 One of those new features is the new **constraint-based** design for assertions, supported by a new syntax. That syntax, in fact, was the cause of the aforementioned naming conflict, which is now resolved. As a result, RC2 makes more changes than would normally be seen in a release candidate.
 
@@ -28,55 +28,56 @@ Some users have expressed concern that the older syntax will eventually fade awa
 
 The constraint-based model uses the Assert.That method, with an actual value being tested as it's first argument and a constraint object as the second. The most direct, although not necessarily most convenient, way to express a constraint is to construct the object in-line. The following example uses an instance of the EqualConstraint to perform a test...
 
-```csharpAssert.That( 2 + 2, new EqualConstraint( 4 ) );```
+```csharp
+Assert.That( 2 + 2, new EqualConstraint( 4 ) );
+```
 
 The same assertion can be written using a helper class to construct the constraint...
 
-```csharpAssert.That( 2 + 2, Is.EqualTo( 4 ) );```
-
-
+```csharp
+Assert.That( 2 + 2, Is.EqualTo( 4 ) );
+```
 
 NUnit 2.4 Supports a wide range of constraints and syntax helpers:
 
+| Syntax Helper | Constraint Constructor |
+| ------------- | ---------------------- |
+| Is.Null | EqualConstraint( null ) |
+| Is.True | EqualConstraint( true ) |
+| Is.False | EqualConstraint( false) |
+| Is.NaN | EqualConstraint( double.NaN ) |
+| Is.Empty | EmptyConstraint() |
+| Is.Unique | UniqueItemsConstraint() |
+| Is.EqualTo( object expected ) | EqualConstraint( object expected ) |
+| Is.SameAs( object expected ) | SameAsConstraint( object expected ) |
+| Is.GreaterThan( IComparable expected ) | GreaterThanConstraint( IComparable expected ) |
+| Is.GreaterThanOrEqualTo( IComparable expected ) | GreaterThanOrEqualConstraint( IComparable expected ) |
+| Is.AtLeast( IComparable expected ) | GreaterThanOrEqualConstraint( IComparable expected ) |
+| Is.LessThan( IComparable expected ) | LessThanConstraint( IComparable expected ) |
+| Is.LessThanOrEqualTo( IComparable expected ) | LessThanOrEqualConstraint( IComparable expected ) |
+| Is.AtMost( IComparable expected ) | LessThanOrEqualConstraint( IComparable expected ) |
+| Is.TypeOf( Type expected ) | ExactTypeConstraint( Type expected ) |
+| Is.InstanceOfType( Type expected ) | InstanceOfTypeConstraint( Type expected ) |
+| Is.AssignableFrom( Type expected ) | AssignableFromConstraint( Type expected )  |
+| Is.SubsetOf( ICollection expected ) | CollectionSubsetConstraint( ICollection expected ) |
+| Is.EquivalentTo( ICollection expected ) | CollectionEquivalentTo( ICollection expected ) |
+| List.Contains( object expected ) | CollectionContainsConstraint( object expected )</td></tar>
+| Text.Contains( string expected ) | SubstringConstraint( string expected ) |
+| Text.StartsWith( string expected ) | StartsWithConstraint( string  expected) |
+| Text.EndsWith( string expected ) | EndsWithConstraint( string expected ) |
+| Text.Matches( string pattern ) | RegexConstraint( string pattern ) |
+| Has.Property( string name, object expected ) | PropertyConstraint( string name, object expected ) |
+| Has.Length( int length ) | PropertyConstraint( "Length", length ) |
+| Is.Not.Xxxx, Has.Not.Xxxx, etc. | NotConstraint( Xxxx ) |
+| operator ! | NotConstraint( Xxxx ) |
+| Is.All.Xxxx, Has.All.Xxxx, etc. | AllItemsConstraint( Xxxx ) |
+| operator & | AndConstraint( Constraint left, Constraint right ) |
+| operator | | OrConstraint( Constraint left, Constraint right ) |
 
-<table cellpadding=6 cellspacing=0 border=1 style="margin-left: 2em">
-<tr><th>Syntax Helper</th><th>Constraint Constructor</th></tr>
-<tr><td>Is.Null</td><td>EqualConstraint( null )</td></tr>
-<tr><td>Is.True</td><td>EqualConstraint( true )</td></tr>
-<tr><td>Is.False</td><td>EqualConstraint( false)</td></tr>
-<tr><td>Is.NaN</td><td>EqualConstraint( double.NaN )</td></tr>
-<tr><td>Is.Empty</td><td>EmptyConstraint()</td></tr>
-<tr><td>Is.Unique</td><td>UniqueItemsConstraint()</td></tr>
-<tr><td>Is.EqualTo( object expected )</td><td>EqualConstraint( object expected )</td></tr>
-<tr><td>Is.SameAs( object expected )</td><td>SameAsConstraint( object expected )</td></tr>
-<tr><td>Is.GreaterThan( IComparable expected )</td><td>GreaterThanConstraint( IComparable expected )</td></tr>
-<tr><td>Is.GreaterThanOrEqualTo( IComparable expected )</td><td>GreaterThanOrEqualConstraint( IComparable expected )</td></tr>
-<tr><td>Is.AtLeast( IComparable expected )</td><td>GreaterThanOrEqualConstraint( IComparable expected )</td></tr>
-<tr><td>Is.LessThan( IComparable expected )</td><td>LessThanConstraint( IComparable expected )</td></tr>
-<tr><td>Is.LessThanOrEqualTo( IComparable expected )</td><td>LessThanOrEqualConstraint( IComparable expected )</td></tr>
-<tr><td>Is.AtMost( IComparable expected )</td><td>LessThanOrEqualConstraint( IComparable expected )</td></tr>
-<tr><td>Is.TypeOf( Type expected )</td><td>ExactTypeConstraint( Type expected )</td></tr>
-<tr><td>Is.InstanceOfType( Type expected )</td><td>InstanceOfypeConstraint( Type expected )</td></tr>
-<tr><td>Is.AssignableFrom( Type expected )</td><td>AssignableFromConstraint( Type expected ) </td></tr>
-<tr><td>Is.SubsetOf( ICollection expected )</td><td>CollectionSubsetConstraint( ICollection expected )</td></tr>
-<tr><td>Is.EquivalentTo( ICollection expected )</td><td>CollectionEquivalentTo( ICollection expected )</td></tr>
-<tr><td>List.Contains( object expected )</td><td>CollectionContainsConstraint( object expected )</td></tar>
-<tr><td>Text.Contains( string expected )</td><td>SubstringConstraint( string expected )</td></tr>
-<tr><td>Text.StartsWith( string expected )</td><td>StartsWithConstraint( string  expected)</td></tr>
-<tr><td>Text.EndsWith( string expected )</td><td>EndsWithConstraint( string expected )</td></tr>
-<tr><td>Text.Matches( string pattern )</td><td>RegexConstraint( string pattern )</td></tr>
-<tr><td>Has.Property( string name, object expected )</td><td>PropertyConstraint( string name, object expected )</td></tr>
-<tr><td>Has.Length( int length )</td><td>PropertyConstraint( "Length", length )</td></tr>
-<tr><td>Is.Not.Xxxx, Has.Not.Xxxx, etc.</td><td>NotConstraint( Xxxx )</td></tr>
-<tr><td>operator !</td><td>NotConstraint( Xxxx )</td></tr>
-<tr><td>Is.All.Xxxx, Has.All.Xxxx, etc.</td><td>AllItemsConstraint( Xxxx )</td></tr>
-<tr><td>operator &</td><td>AndConstraint( Constraint left, Constraint right )</td></tr>
-<tr><td>operator |</td><td>OrConstraint( Constraint left, Constraint right )</td></tr>
-</table>
-
-**Note** that **Not** and **All** are used as prefixes to any of the other constraints. The AllItemsConstraint causes the following constraint to be applied to each item in a collection, succeeding only if the constraint succeeds on every item.
+**Note** that `Not` and `All` are used as prefixes to any of the other constraints. The `AllItemsConstraint` causes the following constraint to be applied to each item in a collection, succeeding only if the constraint succeeds on every item.
 
 Examples of use:
+
 ```csharp
 Assert.That( new object[] { 1, 3, 5 }, Is.SubsetOf( new object[] { 5, 4, 3, 2, 1 } );
 Assert.That( new string[] { "abc", "bac", "cab" }, Has.All.Length( 3 ) );
@@ -86,11 +87,9 @@ Assert.That( "Hello World!", Text.StartsWith( "HELLO" ).IgnoreCase );
 
 The last two examples illustrate the use of **constraint modifiers**. These are properties or methods of constraints, which are used to modify their operation. They are syntactically valid on all constraints and are ignored by those constraints that do not make use of them. The following constraint modifiers are supported.
 
-
 * **AsCollection** is recognized by EqualConstraint and causes arrays to be compared using the underlying collections, without regard to their respective ranks or dimension lengths.
 * **IgnoreCase** causes any string comparisons to be case insensitive. It is recognized by EqualConstraint as well as by all the Text constraints.
 * **Within(  tolerance )** is recognized by EqualConstraint when both values are a floating point type. It causes the comparison to succeed when the difference between the values is less than or equal to the tolerance.
-
 
 **To Inherit or Not**
 
@@ -111,7 +110,7 @@ Consequently, assuming the containing class inherits from AssertionHelper, the f
 
 **What Next?**
 
-The constraint-based design will continue to be expanded in the final release of NUnit 2.4 and beyond. Where the syntax will go is another question. The underlying constraint model is flexible enough to support a variety of syntactic layers, and the community is just getting started at trying out these ideas. 
+The constraint-based design will continue to be expanded in the final release of NUnit 2.4 and beyond. Where the syntax will go is another question. The underlying constraint model is flexible enough to support a variety of syntactic layers, and the community is just getting started at trying out these ideas.
 
 We expect that many users will want to develop their own constraints and to layer alternate syntax on top of the constraint model. The best of these new ideas will eventually be incorporated either as extensions to NUnit or as part of the framework itself.
 

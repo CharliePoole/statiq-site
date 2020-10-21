@@ -4,7 +4,7 @@ Tags: [NUnit,It's the Tests]
 ---
 I just released NUnit 2.4. It fixes a few issues that slipped into the 2.4 release an makes some minor improvements. I wanted to get this release out because I'll be travelling for a few months and won't be in a position to do further releases until July or August.
 
-You can review the <a href="http://nunit.com/?p=releaseNotes&r=2.4.1">release notes</a> for more info about the contents of this release. You can download it <a href="http://nunit.com/?p=download">here</a>.
+You can review the[Release Notes](https://docs.nunit.org/2.4.1/releaseNotes.html) for more info about the contents of this release. You can download it from NUnit.org.
 
 ---
 

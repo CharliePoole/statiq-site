@@ -3,7 +3,7 @@ Published: 30 Dec 2005
 Tags: [Open Source, NUnit, TDD, It's the Tests]
 ---
 In my earlier post,
-[The Death Of NUnit - Will it be Ice?](/posts/the-death-of-nunit-will-it-be-ice.html),
+[The Death Of NUnit - Will it be Ice?](/technical/the-death-of-nunit-will-it-be-ice.html),
 I adopted the notion - promoted in some mailing list posts - that NUnit might be dead or dying.
 I identified two big worries: death by ice and death by fire. Ice stood for frozen inactivity on
 the part of the project itself - failure to move ahead. Fire symbolized competitive forces, which
@@ -13,10 +13,8 @@ might make NUnit obsolete.
 In that first article, I tried to show that NUnit is not frozen but has been moving ahead,
 although we were remiss in not releasing early and often. I promised we get some new releases
 out, and indeed we have. NUnit has had three times since then and NUnit 2.2.5 is our new
-recommended release. You can see it's features in the
-[NUnit Release Notes](http://nunit.org/index.php?p=releaseNotes&r=2.2.5").
-Meanwhile, work is underway on the NUnit 2.4 release, as described in our
-[project roadmap](http://nunit.org/index.php?p=roadmap).
+recommended release. You can see it's features in the NUnit Release Notes.
+Meanwhile, work is underway on the NUnit 2.4 release, as described in our project roadmap.
 
 So now, in this post, I want to address the question of death by fire. In particular, some folks
 have expressed the opinion that the unit-testing features in Visual Studio 2005 Team System
@@ -58,8 +56,7 @@ following editions:
 
 Of the above, only the Team System includes unit-testing support. Specifically, the entry-level
 for developers wanting unit-testing support is Visual Studio 2005 Team Edition for Software
-Developers. The Microsoft [How to Buy](http://msdn.microsoft.com/vstudio/howtobuy/Default.aspx)
-page gives comparative prices for the various editions.
+Developers. The Microsoft How to Buy page gives comparative prices for the various editions.
 
 NUnit, on the other hand works with all editions of Visual Studio .Net, Visual Studio .Net 2003 and Visual Studio 2005. That includes the free express editions.
 
@@ -69,8 +66,8 @@ For most of its user base, the fact that NUnit is open-source is a plus. That wo
 Of course, there are corporations that prefer to buy proprietary commercial software. That's
 not new. Those folks are not our current users and we're not particularly interested in them.
 
-NUnit will continue to evolve, as described in our [Vision Statement](http://nunit.org/?p=vision)
-and [Roadmap](http://nunit.org/index.php?p=roadmap). Some of our developers will get busy with
+NUnit will continue to evolve, as described in our Vision Statement
+and Roadmap. Some of our developers will get busy with
 other things. Some of our users will take their place. Eventually, the NUnit project may come
 to an end, but even then, NUnit won't be obsolete because its users will be able to update it
 themselves.

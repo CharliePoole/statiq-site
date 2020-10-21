@@ -5,7 +5,7 @@ Tags: [NUnit,OSCON,Ruby,It's the Tests]
 People want what they want. If NUnit doesn't have a feature that they need, they ask for it. Of course, we can't implement all of them, so some people want to be able to create there own test runner using the NUnit assemblies.
 
 <!--more-->
-This isn't too hard to do, but it takes a bit of effort to glue the various NUnit classes together. After I attended a talk by <a href="http://www.iunknown.com/">John Lam</a> talk on <a href="http://rubyclr.com/">RubyCLR</a>, I got the idea of creating a "clone" of NUnit-console in Ruby.
+This isn't too hard to do, but it takes a bit of effort to glue the various NUnit classes together. After I attended a talk by John Lam talk on RubyCLR, I got the idea of creating a "clone" of NUnit-console in Ruby.
 
 Initially, I couldn't even get RubyCLR to run on my system, but that was due to my lack of Ruby knowledge as much as anything else. In the end, it worked. The code in this article was written pairing with John, who is probably responsible for it's working at all.
 
@@ -31,7 +31,7 @@ count = runner.count_test_cases( "NUnit.Framework.Tests" )
 puts "Loaded #{count} test cases"
 ```
 
-An interesting feature of this code is the use of the count_test_cases method on the TestRunner. Actually, there is no such method! The real method is called CountTestCases. However, RubyCLR allows use of ruby-friendly naming conventions and attempts to match up any methods it can't find by removing undrescores and capitalizing as needed. Personally, I think I prefer using the actual names to make it clear that I'm calling into the .Net framework.
+An interesting feature of this code is the use of the count_test_cases method on the TestRunner. Actually, there is no such method! The real method is called CountTestCases. However, RubyCLR allows use of ruby-friendly naming conventions and attempts to match up any methods it can't find by removing underscores and capitalizing as needed. Personally, I think I prefer using the actual names to make it clear that I'm calling into the .Net framework.
 
 Running the tests is pretty simple...
 

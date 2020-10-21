@@ -1,0 +1,106 @@
+Title: FIT Test Loading Tests
+LinkedFrom: /technical/the-tester-tested-fit-and-nunit.html
+---
+<p>These tests create a test assembly from a snippet of code and 
+then load and run the tests that it contains. For this demo,
+a few errors have been introduced just to show what they
+look like.</p>
+
+<table BORDER cellspacing=0 cellpadding=5>
+<tr><td colspan=6>NUnit.Fixtures.TestLoadFixture</td></tr>
+<tr>
+  <td>Code</td>
+  <td>Tree()</td>
+  <td>Run()</td>
+  <td>Skipped()</td>
+  <td>Ignored()</td>
+  <td>Failures()</td>
+</tr>
+<tr><td bgcolor="#cfffcf"><pre>public class TestClass
+{
+}</pre></td>
+<td bgcolor="#cfffcf">EMPTY</td>
+<td bgcolor="#cfffcf">0</td><td bgcolor="#cfffcf">0</td><td bgcolor="#cfffcf">0</td><td bgcolor="#cfffcf">0</td></tr>
+<tr><td bgcolor="#cfffcf"><pre>using NUnit.Framework;
+
+[TestFixture]
+public class TestClass
+{
+}</pre></td>
+<td bgcolor="#cfffcf">TestClass</td>
+<td bgcolor="#cfffcf">0</td><td bgcolor="#cfffcf">0</td><td bgcolor="#cfffcf">0</td><td bgcolor="#cfffcf">0</td></tr>
+<tr><td bgcolor="#ffcfcf"><pre>using NUnit.Framework;
+
+[TestFixture]
+public class TestClass
+{
+    [Test]
+    public void T1() { }
+    [Text]
+    public void T2() { }
+    [Test]
+    public void T3() { }
+}</pre><font size=-1 color="#c08080"><i>Compiler errors</i></font><hr>D:\Dev\NUnit\nunit-2.4\fit> "c:\windows\microsoft.net\framework\v1.1.4322\csc.exe" /t:library /utf8output /R:"system.dll" /R:"nunit.framework.dll" /out:"test.dll" /debug- /optimize+  ".\22wcmxwk.0.cs"<br><br><br>Microsoft (R) Visual C# .NET Compiler version 7.10.6001.4<br>for Microsoft (R) .NET Framework version 1.1.4322<br>Copyright (C) Microsoft Corporation 2001-2002. All rights reserved.<br><br>22wcmxwk.0.cs(1,92): error CS0246: The type or namespace name 'Text' could not be found (are you missing a using directive or an assembly reference?)<br></td>
+<td bgcolor="#ffcfcf"><pre>TestClass
+>T1
+>T2
+>T3</pre> <font size=-1 color="#c08080"><i>expected</i></font><hr>TestClass<br /> <font size=-1 color="#c08080"><i>actual</i></font></td>
+<td bgcolor="#ffcfcf">3 <font size=-1 color="#c08080"><i>expected</i></font><hr>0 <font size=-1 color="#c08080"><i>actual</i></font></td><td bgcolor="#cfffcf">0</td><td bgcolor="#cfffcf">0</td><td bgcolor="#cfffcf">0</td></tr>
+<tr><td bgcolor="#cfffcf"><pre>using NUnit.Framework;
+
+[TestFixture]
+public class TestClass1
+{
+    [Test]
+    public void T1() { }
+}
+
+[TestFixture]
+public class TestClass2
+{
+    [Test]
+    public void T2() { }
+    [Test]
+    public void T3() { }
+}</pre></td>
+<td bgcolor="#cfffcf"><pre>TestClass1
+>T1
+TestClass2
+>T2
+>T3</pre></td>
+<td bgcolor="#cfffcf">3</td><td bgcolor="#cfffcf">0</td><td bgcolor="#cfffcf">0</td><td bgcolor="#cfffcf">0</td></tr>
+<tr><td bgcolor="#cfffcf"><pre>using NUnit.Framework;
+
+[TestFixture]
+public class TestClass
+{
+    [Test]
+    public void T1() { }
+    [Test, Ignore]
+    public void T2() { }
+    [Test]
+    public void T3() { }
+}</pre></td>
+<td bgcolor="#cfffcf"><pre>TestClass
+>T1
+>T2
+>T3</pre></td>
+<td bgcolor="#cfffcf">2</td><td bgcolor="#cfffcf">0</td><td bgcolor="#cfffcf">1</td><td bgcolor="#cfffcf">0</td></tr>
+<tr><td bgcolor="#cfffcf"><pre>using NUnit.Framework;
+
+[TestFixture]
+public class TestClass
+{
+    [Test]
+    public void T1() { }
+    [Test, Explicit]
+    public void T2() { }
+    [Test]
+    public void T3() { }
+}</pre></td>
+<td bgcolor="#cfffcf"><pre>TestClass
+>T1
+>T2
+>T3</pre></td>
+<td bgcolor="#cfffcf">2</td><td bgcolor="#cfffcf">1</td><td bgcolor="#cfffcf">0</td><td bgcolor="#cfffcf">0</td></tr>
+</table>

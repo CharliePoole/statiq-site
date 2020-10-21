@@ -1,6 +1,6 @@
 Title: "What's a Test Worth?"
 Published: 11 Sep 2005
-Tags: [TDD, XP, It's the Tests]
+Tags: [TDD, Extreme Programming, It's the Tests]
 ---
 In a discussion about unit-test suites that take too long to run, Ron Jeffries writes
 

@@ -4,7 +4,7 @@ Tags: [NUnit,It's the Tests]
 ---
 Although NUnit 2.4 is almost out the door, there were a few outstanding bug fixes to the NUnit 2.2 series hanging around, so I decided to issue a final 2.2 release. Like all the releases since NUnit 2.2.4, this is primarily a bug fix release.
 
-See the <a href="http://nunit.org/?p=releaseNotes&r=2.2.10">release notes</a> for details of what has changed. You can download it <a href="http://nunit.org/?p=download">here</a>.
+See the [Release Notes](https://docs.nunit.org/2.2.10/releaseNotes.html) for details of what has changed. You can download it from NUnit.org.
 
 Since NUnit 2.4 is coming out in a matter of days, this release is for those who plan to stay with the 2.2 series for some time. Future work will concentrate on NUnit 2.4 enhancements and on planning for NUnit 3.0.
 
