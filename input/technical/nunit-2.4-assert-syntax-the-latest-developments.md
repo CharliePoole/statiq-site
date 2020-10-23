@@ -72,7 +72,7 @@ NUnit 2.4 Supports a wide range of constraints and syntax helpers:
 | operator ! | NotConstraint( Xxxx ) |
 | Is.All.Xxxx, Has.All.Xxxx, etc. | AllItemsConstraint( Xxxx ) |
 | operator & | AndConstraint( Constraint left, Constraint right ) |
-| operator | | OrConstraint( Constraint left, Constraint right ) |
+| operator \| | OrConstraint( Constraint left, Constraint right ) |
 
 **Note** that `Not` and `All` are used as prefixes to any of the other constraints. The `AllItemsConstraint` causes the following constraint to be applied to each item in a collection, succeeding only if the constraint succeeds on every item.
 

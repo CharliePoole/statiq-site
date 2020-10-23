@@ -28,17 +28,16 @@ have at this point, we can only guess.
 
 Here's a summary of what my grandmother, Mary Head Poole told the census takers about her age during her life.
 
-<table style="margin: 10px 100px; padding: 10px; border: 1px solid black; background-color: #e0e0e0">
-    <tr><th>Census Year</th><th>Reported&nbsp;Age</th></tr>
-    <tr><td>1900 US Census</td><td style="text-align: center">24</td></tr>
-    <tr><td>1905 New York State Census</td><td style="text-align: center">29</td></tr>
-    <tr><td>1910 US Census</td><td style="text-align: center">34</td></tr>
-    <tr><td>1915 New York State Census</td><th style="text-align: center">49</th></tr>
-    <tr><td>1920 US Census</td><td style="text-align: center">44</td></tr>
-    <tr><td>1925 New York State Census</td><td style="text-align: center">49</td></tr>
-    <tr><td>1930 US Census</td><td style="text-align: center">54</td></tr>
-    <tr><td>1940 US Census</td><td style="text-align: center">64</td></tr>
-</table>
+| Census Year                | Reported Age |
+| -------------------------- | :----------: |
+| 1900 US Census             |      24      |
+| 1905 New York State Census |      29      |
+| 1910 US Census             |      34      |
+| 1915 New York State Census |   **>49<**   |
+| 1920 US Census             |      44      |
+| 1925 New York State Census |      49      |
+| 1930 US Census             |      54      |
+| 1940 US Census             |      64      |
 
 Only the 1915 census is inconsistent. It could be an error made by the census-taker or a slip
 on the part of my grandmother, reporting her age correctly this one time. We can't know which.

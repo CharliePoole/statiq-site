@@ -2,7 +2,9 @@ body {
   background-color: #e6f2ff;
 }
 
-header.masthead .page-heading a, header.masthead .post-heading a, header.masthead .site-heading a { color: white; }
+header.masthead .page-heading a,
+header.masthead .site-heading a {
+  color: white;}
 
 #content {
   margin: -40px 0 20px;
@@ -37,7 +39,11 @@ header.masthead .page-heading a, header.masthead .post-heading a, header.masthea
   background-color: #003e80;
 }
 
-.btn-custom { color: #fff; background-color: #003e80; border-color: #003e80; }
+.btn-custom {
+  color: #fff;
+  background-color: #003e80;
+  border-color: #003e80;
+}
 
 div.family-member {
     min-width: 200px;
@@ -50,7 +56,9 @@ div.family-member {
     border: 2px solid black;
 }
 
-#mainNav .navbar-brand { padding: 10px 20px 10px 0; }
+#mainNav .navbar-brand {
+  padding: 10px 20px 10px 0;
+}
 
 div.pic { 
   /*margin: 0 auto 2em auto;*/
@@ -58,9 +66,11 @@ div.pic {
   float: left;
   width: 100%; 
 }
+
 div.pic hr {
   display: none;
 }
+
 div.pic img {
   max-width: 100%;
   max-height: 100%;
@@ -82,14 +92,35 @@ img.right {
   div.pic hr {
     display: block;
   }
+
   div.odd img, div.left img {
       float: left;
       margin: 0 1em 2em 0;
   }
+
   div.even img, div.right img {
       float: right;
       margin: 0 0 2em 1em;
   }
+}
+
+/* Default table display in content */
+#content table {
+  margin: 1em auto;
+}
+
+#content th,
+#content td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#content th {
+  background-color: #ccc
+}
+
+#content td {
+  background-color: #eee
 }
 
 .post-preview .post-title {
