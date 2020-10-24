@@ -7,13 +7,14 @@
     string description = Document.WithoutSettings().GetString("Lead") ?? Document.WithoutSettings().GetString(WebKeys.Description);
     string title = Document.GetString("Title") ?? Document.GetString("SiteTitle");
     bool isPost = Document.GetBool("IsPost") && title != "Tags" && title != "Archive";
+    string linkedPost = Document.GetString("linkedPost");
 }
 <header class="masthead" style="@backgroundImage">
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="@(isPost ? "post-heading" : "site-heading")">
+        <div class="@(isPost || linkedPost != null ? "post-heading" : "site-heading")">
           <h2>
             @title
             @if (Document.GetInt(Keys.Index) > 1)
@@ -32,7 +33,7 @@
               IDocument topic = Outputs.Get(postDir + "/index.html");
 
               <div class="meta">Published on @Document.GetDateTime(WebKeys.Published).ToLongDateString()</div>
-              <div class="mt-3">
+              <div class="mt-3 mb-3">
                 @if (topic != null)
                 {
                   <i>Topic:</i>
@@ -48,6 +49,13 @@
                     <a href="@Context.GetLink(tag)" class="badge badge-light"> @tag.GetTitle()</a>
                   }
                 }
+              </div>
+          }
+          else if (linkedPost != null)
+          {
+              // This is a supplementary page, linked from a post, so show link back to it
+              <div class="mt-3 mb-3">
+                <a href="@Context.GetLink(linkedPost)" class="badge badge-light">&lt;&lt; Back to Post</a>
               </div>
           }
         </div>
