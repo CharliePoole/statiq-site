@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Statiq.Web" Version="1.0.0-beta.5" />
+    <PackageReference Include="FluentFtp" Version="33.0.2" />
   </ItemGroup>
 
 </Project>
