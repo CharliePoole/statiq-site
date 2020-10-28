@@ -26,6 +26,8 @@ until the migration is complete.
 
 * Added a `Site Status` page (this one).
 
+* Automated rebuild and deployment of the site.
+
 ### Ongoing
 
 * Check all old posts for broken links and fix. Remove posts from `CharliePoole.com`
@@ -44,8 +46,6 @@ until the migration is complete.
 * Add background images to (at least) the index pages.
 
 * Update my bio and resume.
-
-* Automate rebuild and deployment of the site.
 
 * Decide whether to support comments on blog posts and how.
 

@@ -86,10 +86,17 @@ Task("Deploy")
                     Console.WriteLine($"No change: {path}");
             }
 
-            if (ftp.Uploads > 0)
+            if (remoteHashes != null)
+                foreach(var path in remoteHashes.Keys)
+                {
+                    if (!localHashes.ContainsKey(path))
+                        ftp.DeleteFile(path);
+                }
+
+            Console.WriteLine($"Files Uploaded: {ftp.Uploaded} Deleted: {ftp.Deleted}");
+
+            if (ftp.Uploaded > 0 || ftp.Deleted > 0)
                 ftp.UploadHashFile(localHashes);
-            else
-                Console.WriteLine("Nothing to update.");
         }
     });
 

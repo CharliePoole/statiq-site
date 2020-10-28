@@ -17,9 +17,9 @@ private class FtpDeploy : IDisposable
 
     public bool DryRun { get; set; }
 
-    public int Uploads { get; private set; }
+    public int Uploaded { get; private set; }
 
-    public int Deletes { get; private set; }
+    public int Deleted { get; private set; }
 
     public HashDictionary GetHashDictionary()
     {
@@ -52,9 +52,24 @@ private class FtpDeploy : IDisposable
         Console.WriteLine($"Uploading {localPath} to {remotePath}");
 
         if (!DryRun)
+        {
             _client.UploadFile(localPath, remotePath);
+        }
 
-        Uploads++;
+        Uploaded++;
+    }
+
+    public void DeleteFile(string path)
+    {
+        string remotePath = REMOTE_PATH + path;
+        Console.WriteLine($"Deleting {remotePath}");
+
+        if (!DryRun)
+        {
+            _client.DeleteFile(remotePath);
+        }
+
+        Deleted++;
     }
 
     public void UploadHashFile(HashDictionary hashes)
