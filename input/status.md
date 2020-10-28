@@ -28,10 +28,12 @@ until the migration is complete.
 
 * Automated rebuild and deployment of the site.
 
+* Added background images to the home page and each main topic page.
+
 ### Ongoing
 
 * Check all old posts for broken links and fix. Remove posts from `CharliePoole.com`
-  as the new versions are verified. **Currently** all posts prior to **May, 2008** have been
+  as the new versions are verified. **Currently** all posts prior to **January, 2009** have been
   updated.
 
 * Port technical articles and remove them from `CharliePoole.com`.
@@ -42,8 +44,6 @@ until the migration is complete.
 #### General
 
 * Add a contact page
-
-* Add background images to (at least) the index pages.
 
 * Update my bio and resume.
 

@@ -53,7 +53,7 @@ private class FtpDeploy : IDisposable
 
         if (!DryRun)
         {
-            _client.UploadFile(localPath, remotePath);
+            _client.UploadFile(localPath, remotePath, FtpRemoteExists.Overwrite, true);
         }
 
         Uploaded++;

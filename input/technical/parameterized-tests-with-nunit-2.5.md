@@ -2,7 +2,7 @@ Title: "Parameterized Tests With NUnit 2.5"
 Published: 23 May 2008
 Tags: [NUnit,It's the Tests]
 ---
-It has been possible to write parameterized tests for NUnit for some time, using Andreas Schlapsi's <a href="http://www.andreas-schlapsi.com/projects/rowtest-extension-for-nunit/">RowTest Extension</a>, which recognizes the RowTest and Row attributes familiar to MbUnit users. 
+It has been possible to write parameterized tests for NUnit for some time, using Andreas Schlapsi's **RowTest Extension**, which recognizes the RowTest and Row attributes familiar to MbUnit users.
 
 With the NUnit 2.5 alpha releases, NUnit continues to support that extension - and even bundles a copy of it. But NUnit 2.5 also introduces its own set of attributes for data-based testing, beginning with the **TestCaseAttribute**, which I will describe here.
 
@@ -23,7 +23,7 @@ public void IntegerDivisionWithResultPassedToTest(int n, int d, int q)
 }
 ```
 
-This creates five different test cases, displayed and reported separately. The two last tests show alternate ways to specify an expected exceptionl. Note the use of the TestName property, to specify a meaningful name for each of these cases.
+This creates five different test cases, displayed and reported separately. The two last tests show alternate ways to specify an expected exception. Note the use of the TestName property, to specify a meaningful name for each of these cases.
 
 Since this test consists of a single Assert.AreEqual statement, we can simplify it further by modifying the test method to return a result and indicate the expected result with the result property...
 
@@ -41,7 +41,7 @@ public int IntegerDivisionWithResultCheckedByNUnit(int n, int d)
 }
 ```
 
-For more information on this feature, see the <a href="http://nunit.org/?p=testCase&r=2.5">NUnit documentation</a>. 
+For more information on this feature, see the [NUnit documentation](http://docs.nunit.org/2.5/testCase.html).
 
 ---
 

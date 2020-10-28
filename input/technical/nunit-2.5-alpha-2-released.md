@@ -2,7 +2,7 @@ Title: "NUnit 2.5 Alpha 2 Released"
 Published: 08 May 2008
 Tags: [NUnit,It's the Tests]
 ---
-With a European trip about to start, I decided to release a second Alpha so that the new stuff would get some visibility. I won't be doing another release till late June, so please <a href="http://nunit.org/?p=download">give this one a try</a>.
+With a European trip about to start, I decided to release a second Alpha so that the new stuff would get some visibility. I won't be doing another release till late June, so please [give this one a try](http://nunit.org/download).
 
 As compared to 2.4, NUnit 2.5 has quite a lot:
 
@@ -12,7 +12,7 @@ As compared to 2.4, NUnit 2.5 has quite a lot:
 * Bundled addins, now including RowTest and CSUnitAddin.
 
 
-For more info, see the <a href="http://nunit.org/?p=releaseNotes&r=2.5">release notes</a>.
+For more info, see the [release notes](http://docs.nunit.org/2.5/releaseNotes.html).
 
 In addition, watch the NUnit mailing lists or this blog for info about other extensions as they are released for NUnit 2.5.
 

@@ -6,7 +6,7 @@ Let me start right out by saying: I **know** some of you won't find this to be s
 
 The hardest part about **building** - as opposed to **writing** - addins is getting the references right. Addin solutions in Visual Studio generally contain from three to five projects: the addin assembly, the assembly referenced from user tests, a unit test assembly, possibly a separate test fixture assembly for use by the tests and one or more samples. All of those have to reference the nunit assemblies they will be used with when they are installed. Getting it right is tedious at best, requiring multiple visits to the Add Reference Dialog. And from time to time, Visual Studio will decide to use a different assembly from the one you expected.
 
-I finally got fed up with all this and decided to write a NAnt script for one of my addins - <a href="http://nunit.org/?p=csunitAddin">CSUnitAddin</a> actually. After it was done, I looked closely and realized that most of it was boilerplate - the same code with a few property changes would build other addins. So I started to factor out the common code into an include file, with the result that my CSUnitAddin.build file now looks like this:
+I finally got fed up with all this and decided to write a NAnt script for one of my addins - **CSUnitAddin** actually. After it was done, I looked closely and realized that most of it was boilerplate - the same code with a few property changes would build other addins. So I started to factor out the common code into an include file, with the result that my CSUnitAddin.build file now looks like this:
 
 ```xml
 <?xml version="1.0"?>
@@ -36,13 +36,11 @@ I finally got fed up with all this and decided to write a NAnt script for one of
 
 This example actually has to do more than most, since it uses a "foreign" testing framework. I'll walk through the steps for you:
 
-
-1. First, the script includes the addin.common.build sript, which will do all the work.
+1. First, the script includes the `common.addin.build` script, which will do all the work.
 2. Next, it defines non-standard names for the sample assembly and it's directory. I could have eliminated this by calling them both "sample" but I wanted a non-generic name here.
 3. I do the same thing for the "fixture" assembly - an assembly that contains csunit-based tests, which are loaded and run by my unit test assembly. In this case, I might have stuck with the default (CSUnitAddinFixture) and saved a few lines of xml.
 4. I set the target.framework.dll to csUnit so that my sample and fixture assemblies will be built with a reference to that framework rather than the default nunit framework.
 5. This particular addin has multiple library subdirectories for different versions of csUnit, so I set the alt.lib.dir property to indicate which one I want to use.
-
 
 So, let's say that I want to build and test this addin with NUnit 2.5, using both the .NET 1.1 and 2.0 builds. I can do this with two commands:
 
@@ -55,4 +53,4 @@ The script will locate my NUnit 2.5 installation, build the addin and it's assoc
 
 This is how I'm building addins now. I use Visual Studio to do editing and syntax checking, leaving the actual builds to the script. As a result, I no longer need to deal with mismatched references or with the tedium of using the gui to switch between NUnit versions.
 
-The Common.Addin.Build script is open source, licensed under the Academic Free Licence 3.0. You can get it <a href="http://nunit.org/?p=commonAddinBuild">here</a>. 
+The Common.Addin.Build script is open source, licensed under the Academic Free Licence 3.0. You can get it on [NUnit.org](http://nunit.org) [Note: no longer available].
