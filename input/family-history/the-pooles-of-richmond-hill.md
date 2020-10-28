@@ -2,7 +2,7 @@ Title: The Pooles of Richmond Hill
 Published: 9/15/2020
 Tags: Poole Family
 ---
-<a href="/images/the-pooles-of-richmond-hill-photo.html"><img class="left" width=320 src="/images/thepoolesofrichmondhill.jpg"></a>
+<a href="/family-history/files/the-pooles-of-richmond-hill-photo.html"><img class="left" width=320 src="/images/thepoolesofrichmondhill_320x400.jpg"></a>
 For me, "the Pooles" will always mean my father's family. Their quirks dominated
 much of my childhood and things about them still come back to haunt me today.
 My dad, Charles Thomas Poole, was one of 13 brothers and sisters, all shown

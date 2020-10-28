@@ -1,5 +1,5 @@
 Title: The Pooles Of Richmond Hill
-IsPost: false
+LinkedPost: /family-history/the-pooles-of-richmond-hill.html
 ---
 <img src="/images/thepoolesofrichmondhill.jpg" style="width: 100%">
   
