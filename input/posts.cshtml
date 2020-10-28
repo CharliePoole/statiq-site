@@ -3,6 +3,7 @@ Order: 4
 ArchiveSources: => GetString("PostSources")
 ArchiveOrderKey: Published
 ArchiveOrderDescending: true
+IsPage: true
 ---
 @foreach(IGrouping<int, IDocument> group in Document
     .GetChildren()

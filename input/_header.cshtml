@@ -7,6 +7,7 @@
     string description = Document.WithoutSettings().GetString("Lead") ?? Document.WithoutSettings().GetString(WebKeys.Description);
     string title = Document.GetString("Title") ?? Document.GetString("SiteTitle");
     bool isPost = Document.GetBool("IsPost") && title != "Tags" && title != "Archive";
+    bool hasImage = backgroundImage != null;
     string linkedPost = Document.GetString("linkedPost");
 }
 <header class="masthead" style="@backgroundImage">
@@ -14,7 +15,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="@(isPost || linkedPost != null ? "post-heading" : "site-heading")">
+        <div class="@(isPost || linkedPost != null ? "post-heading" : hasImage ? "site-heading" : "page-heading")">
           <h2>
             @title
             @if (Document.GetInt(Keys.Index) > 1)

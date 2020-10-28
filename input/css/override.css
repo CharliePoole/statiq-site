@@ -1,10 +1,21 @@
+// Global overrides
 body {
   background-color: #e6f2ff;
 }
 
+// Overrides for the masthead
 header.masthead .page-heading a,
 header.masthead .site-heading a {
-  color: white;}
+  color: white;
+}
+
+header.masthead .post-heading {
+  padding: 60px 0 0;
+}
+
+header.masthead .page-heading {
+  padding: 60px 0;
+}
 
 #content {
   margin: -40px 0 20px;
@@ -21,32 +32,6 @@ header.masthead .site-heading a {
   margin: 20px 0;
   border-top: 1px black solid;
   border-bottom: 1px black solid;
-}
-
-@media only screen and (min-width: 768px) {
-  .intro-header .site-heading,
-  .intro-header .post-heading,
-  .intro-header .page-heading {
-    padding: 50px 0;
-  }
-
-  .intro-header .site-heading h1,
-  .intro-header .page-heading h1 {
-    font-size: 36px;
-  }
-
-  header.masthead .post-heading {
-    padding: 60px 0 0;
-  }
-
-.bg-custom {
-  background-color: #003e80;
-}
-
-a.btn-custom {
-  color: #fff;
-  background-color: #003e80;
-  border-color: #003e80;
 }
 
 div.family-member {
