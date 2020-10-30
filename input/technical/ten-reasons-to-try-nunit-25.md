@@ -2,7 +2,7 @@ Title: "Ten Reasons to Try NUnit 2,5"
 Published: 29 Apr 2009
 Tags: [NUnit,It's the Tests]
 ---
-NUnit 2.5 has so many new features (see the <a href="http://nunit.org/?p=releaseNotes&amp;r=2.5">release notes</a>) that I thought I'd try to come up with my top-ten favorites. It was hard to get down to ten, but here's what I came up with...
+NUnit 2.5 has so many new features (see the [release notes](http://docs.nunit.org/2.5/releaseNotes)) that I thought I'd try to come up with my top-ten favorites. It was hard to get down to ten, but here's what I came up with...
 
 **Reason 1: Data-Driven Tests**
 
@@ -16,9 +16,9 @@ As used in NUnit, a Theory is a generalized statement of how a program should op
 
 Testing that an expected exception is thrown correctly has always been an issue in NUnit. The **ExpectedExceptionAttribute** has been available since early releases but has a number of problems. It tests that the exception was thrown somewhere in the test, without specifying the exact place in the code, and it is subject to the syntactic limitations that apply to use of an attribute. With the introduction of the **Assert.Throws** assertion method and the even more powerful constraint expressions **Throws.Exception**, **Throws.InstanceOf** and **Throws.TypeOf**, exception testing logic can now be moved right into the test along with any other necessary assertions.
 
-**Reason 4: Generic Support
+**Reason 4: Generic Support**
 
-**NUnit 2.5 provides separate framework assemblies for .NET 1.x and 2.0+. Using .NET 2.0 or higher, a number Up to 2.4, NUnit avoided any use of Generics, in order to maintain backward compatibility. In 2.5, the framework assembly used under .NET 2.0 provides a number of generic Asserts and Constraint expressions for convenience. More significantly, your test methods and classes may now be generic, and NUnit will specialize them using the types you provide.
+NUnit 2.5 provides separate framework assemblies for .NET 1.x and 2.0+. Using .NET 2.0 or higher, a number Up to 2.4, NUnit avoided any use of Generics, in order to maintain backward compatibility. In 2.5, the framework assembly used under .NET 2.0 provides a number of generic Asserts and Constraint expressions for convenience. More significantly, your test methods and classes may now be generic, and NUnit will specialize them using the types you provide.
 
 **Reason 5: Lambda Support**
 
@@ -30,7 +30,7 @@ NUnit 2.4 ran all tests within the same process, using one or more AppDomains fo
 
 **Reason 7: PNUnit**
 
-PNUnit stands for "parallel NUnit" and is an extension developed by Pablo Santos Luaces and his team at <a target="_blank" href="http://codicesoftware.com">Codice Software</a> and contributed to NUnit. It's a new way to test applications composed of distributed, communicating components. Tests of each component run in parallel and use memory barriers to synchronize their operation. Currently, pNUnit uses a special executable to launch its tests. In the future, you will be able to run pNUnit tests from the standard NUnit console or gui runner.
+PNUnit stands for "parallel NUnit" and is an extension developed by Pablo Santos Luaces and his team at Codice Software and contributed to NUnit. It's a new way to test applications composed of distributed, communicating components. Tests of each component run in parallel and use memory barriers to synchronize their operation. Currently, pNUnit uses a special executable to launch its tests. In the future, you will be able to run pNUnit tests from the standard NUnit console or gui runner. See [their documentation](https://www.plasticscm.com/documentation/technical-articles/pnunit-parallel-nunit) for details.
 
 **Reason 8: Source Code Display**
 
@@ -44,7 +44,7 @@ These are two separate features, but they are related. Besides, I'm working hard
 
 In past releases, if any test needed to run in the STA, the entire test run had to use the STA. With 2.5, any method, fixture or assembly may be given an attribute that causes it to run on a separate thread in the STA. Other attributes allow requiring an MTA or simply running on a separate thread for isolation. This can eliminate a lot of boilerplate code now required to create a separate thread, launch it and capture the results for NUnit.
 
-This is my own list, of course. Yours may vary. <a target="_blank" href="http://nunit.org/?p=download#beta">Download the release</a>, try it out and let me know what your own favorites are.
+This is my own list, of course. Yours may vary. [Download the release](https://sourceforge.net/projects/nunit/files/NUnit%20Version%202/V2.5/)</a>, try it out and let me know what your own favorites are.
 
 ---
 

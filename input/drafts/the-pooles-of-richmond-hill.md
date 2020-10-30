@@ -1,5 +1,5 @@
 Title: The Pooles of Richmond Hill
-Published: 10/29/2020
+Published: 9/15/2020
 Tags: Poole Family
 ---
 <a href="/family-history/files/the-pooles-of-richmond-hill-photo.html"><img class="left" width=320 src="/images/thepoolesofrichmondhill_320x400.jpg"></a>
@@ -68,11 +68,33 @@ In the 1940 Census, son William is back home and is listed as a widower. Of the 
 (Minnie), Monica, Loretta and Thomas are still living at home. Agnes died in 1932 and the others
 have left home.
 
-Of the 13 children, six sons and seven daughters, five entered religious orders. John and Jim
-became priests while Margaret, Catherine and Theresa became nuns. Loretta entered the convent 
-but left it. None of the daughters ever married and Monica, Minnie and Loretta continued to
-live in the family home after their mother's death in 1944. Known to us as "the girls" they
-ruled the family throughout my childhood. When times were tough, my mother's ability to get
-along with them helped us more than I ever realized at the time.
+More to come as I find more records...
 
-More to come as I ponder further about the Pooles...
+**Note:** The next two sections are just outlines for pages I'd like to develop. The links currently lead to empty pages, which I'll eventually fill in.
+
+### The Next Generation
+  
+You'd think there would be more of us, given the number of people in the
+picture above! But only four of them had offspring: Tom, Charlie, Joe
+and Bill.
+
+Thomas Poole married Eileen Byrnes and they had one daughter, Eileen Poole.
+Locating my cousin Eileen after all these years was what inspired me to create this site.
+
+Charles T. Poole married Mary Conklin and they had two children, Charles F. Poole</a> (that's me) and Agnes Poole.
+
+Joseph Poole had at least two children and moved to Philadelphia quite
+a long time ago. We are not in touch with his descendants yet, but we're working on it.
+
+William Poole was married, widowed and then married again. He and his second wife Muriel [?] had one child, William Poole, known to us as Billy. We know Billy has passed away and have contact info for his widow Carol so maybe we'll learn more there.
+
+### Generations Three and Four
+  
+I have three children: John, Marie and Michael. John has a daughter, Beverly,
+and a son, Kyle. Michael has a daughter, Izabel.
+
+Agnes has two children: Catherine and Marie. Cathy has two daughters, Sidney and Cameron.
+
+Eileen has a daughter, Christine and a grandson Jamie.
+
+Eventually, there will be pages for all these people.

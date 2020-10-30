@@ -8,4 +8,4 @@ NUnit-Summary is an "extra" that I've maintained personally for some time. It us
 
 I have contributed it to the NUnit project and we're working on updating it to recognize NUnit 3 test results. The program has never had a 1.0 release, but we expect to produce one soon.
 
-[This old post](/posts/nunit-extras-test-result-summarizer.html) talks about the original nunit-summary program.
+[This old post](/technical/nunit-extras-test-result-summarizer.html) talks about the original nunit-summary program.

@@ -19,10 +19,10 @@ until the migration is complete.
   Tags are also used and generally apply within a single topic, although that is not
   a restriction.
 
-* Moved posts in my `It's the Tests` blog to this site under `Technical Posts` with the
-  tag `It's the Tests` in addition to the subject tags they already had. A few posts were
-  dropped, mostly announcements of other articles, which will be moved here anyway. A 
-  notice has been posted on the old blog.
+* Moved all posts in my `It's the Tests` blog on `charliepoole.com` to this site under
+  the `Technical Posts` topic with the tag `It's the Tests` in addition to the subject
+  tags they already had. A few posts were dropped, mostly announcements of other articles,
+  which will be moved here anyway. A notice has been posted on the old blog.
 
 * Added a `Site Status` page (this one).
 
@@ -31,10 +31,6 @@ until the migration is complete.
 * Added background images to the home page and each main topic page.
 
 ### Ongoing
-
-* Check all old posts for broken links and fix. Remove posts from `CharliePoole.com`
-  as the new versions are verified. **Currently** all posts prior to **January, 2009** have been
-  updated.
 
 * Port technical articles and remove them from `CharliePoole.com`.
   **Current Status:** Completed **1 out of 13** articles.
