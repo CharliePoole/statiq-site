@@ -53,7 +53,7 @@ Task("CreateHash")
     });
 
 Task("Deploy")
-    //.IsDependentOn("Build")
+    .IsDependentOn("Build")
     .Does(() => 
     {
         using (var ftp = new FtpDeploy { Verbose = verbose, DryRun = dryRun })
