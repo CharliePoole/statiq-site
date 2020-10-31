@@ -1,6 +1,6 @@
 Title: "NUnit's Generic Test Fixtures"
 Published: 03 Jul 2008
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 One recent addition to NUnit 2.5 is the ability to define generic test fixtures, allowing the same fixture to be reused for multiple types that implement the same interface or even just having common method signatures. For example, the following code tests multiple implementations of IList.
 

@@ -1,6 +1,6 @@
 Title: "NUnit for .Net 2.0 - Do We Really Need It?"
 Published: 21 Nov 2005
-Tags: [NUnit,TDD,It's the Tests]
+Tags: [NUnit V2,TDD]
 ---
 The NUnit 2.2.3 release contains two versions of each download: one built with .Net 1.1, one with .Net 2.0. So, what's the deal? Do we need separate versions? And which version do **you** need? I'll try to explain...
 

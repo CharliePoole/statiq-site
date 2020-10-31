@@ -1,6 +1,6 @@
 Title: "The Death of NUnit Revisited: Will it be Fire?"
 Published: 30 Dec 2005
-Tags: [Open Source, NUnit, TDD, It's the Tests]
+Tags: [Open Source, NUnit V2, TDD]
 ---
 In my earlier post,
 [The Death Of NUnit - Will it be Ice?](/technical/the-death-of-nunit-will-it-be-ice.html),

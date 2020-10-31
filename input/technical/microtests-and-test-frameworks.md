@@ -1,6 +1,6 @@
 Title: "Microtests and Test Frameworks"
 Published: 24 Jan 2018
-Tags: [TDD,TC-Lite,It's the Tests]
+Tags: [TDD,TC-Lite]
 ---
 I'm a big fan of microtests - both the term and the thing itself. My friend Hill coined the term quite a while back and I felt it completely solved the problem of ambiguity we agile folks were having when we talked about unit tests in front of people who understood the term in the way it was used 30 or more years ago.
 

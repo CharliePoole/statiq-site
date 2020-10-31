@@ -1,6 +1,6 @@
 Title: "NUnit Stable Releases"
 Published: 04 Nov 2007
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 While NUnit 2.4 was in development, I continued to maintain the NUnit 2.2 series as a stable, bug-fix-only branch. NUnit 2.2.10 was the last in that series.
 

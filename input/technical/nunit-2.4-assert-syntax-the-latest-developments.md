@@ -1,6 +1,6 @@
 Title: "NUnit 2.4 Assert Syntax - the Latest Developments"
 Published: 12 Mar 2007
-Tags: [NUnit,TDD,It's the Tests]
+Tags: [NUnit V2,TDD]
 ---
 NUnit 2.4 RC2 is out now, correcting a naming conflict with several mock object frameworks that was present in RC1. You can download it at [NUnit.org](http://nunit.org/). For a full list of the extensive new features in NUnit 2.4, check out the [Release Notes](https://docs.nunit.org/2.4/releaseNotes.html).
 

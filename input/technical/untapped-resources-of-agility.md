@@ -1,6 +1,6 @@
 Title: "Untapped Resources of Agility"
 Published: 29 Mar 2006
-Tags: [Extreme Programming,It's the Tests]
+Tags: [Extreme Programming]
 ---
 Last week I attended the first XP Day France, where I had been invited to give the keynote. We don't see many attendees from France at the European XP events, which is too bad, because the quality of the presentations was impressive. I'll be blogging separately about some of the things I learned.
 

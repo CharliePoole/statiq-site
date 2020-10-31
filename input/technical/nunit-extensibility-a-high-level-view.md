@@ -1,6 +1,6 @@
 Title: "NUnit Extensibility - A High Level View"
 Published: 10 May 2006
-Tags: [NUnit,TDD,It's the Tests]
+Tags: [NUnit V2,TDD]
 ---
 NUnit originally identified tests in the time-honored way that is still used by most xUnit frameworks. Test classes inherited from the framework's TestCase class. Individual test case methods were identified by their naming pattern.
 

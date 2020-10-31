@@ -1,6 +1,6 @@
 Title: "Ten Reasons to Try NUnit 2,5"
 Published: 29 Apr 2009
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 NUnit 2.5 has so many new features (see the [release notes](http://docs.nunit.org/2.5/releaseNotes)) that I thought I'd try to come up with my top-ten favorites. It was hard to get down to ten, but here's what I came up with...
 

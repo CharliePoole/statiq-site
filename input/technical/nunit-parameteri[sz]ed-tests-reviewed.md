@@ -1,6 +1,6 @@
 Title: "NUnit Parameteri[sz]ed Tests Reviewed"
 Published: 27 Aug 2008
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 Ben Hall has posted a [nice summary](http://blog.benhall.me.uk/2008/08/taking-a-look-at-nunit-2-5-alpha-3/) of the Parameterized Test Features in NUnit 2.5 Alpha-3. Of course, being from the UK and all, he calls them "Parameterised" Tests.
 

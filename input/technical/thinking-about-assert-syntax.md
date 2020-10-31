@@ -1,6 +1,6 @@
 Title: "Thinking About Assert Syntax"
 Published: 31 Aug 2006
-Tags: [NUnit,TDD,It's the Tests]
+Tags: [NUnit V2,TDD]
 ---
 I've been using the development of NUnitLite (coming soon!) as an excuse to try out alternatives to the standard NUnit syntax for Asserts.
 

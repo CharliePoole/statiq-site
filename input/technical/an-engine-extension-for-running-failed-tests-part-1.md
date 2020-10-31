@@ -1,7 +1,7 @@
 Title: An Engine Extension for Running Failed Tests
 Lead: "Part 1: Creating the Extension"
 Published: 22 Sep 2016
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit]
 ---
 In a recent online discussion, one of our users talked about needing to re-run the NUnit console runner, executing just the failed tests from the previous run. This isn't a feature in NUnit but it could be useful to some people. So... can we do this by creating an Engine Extension? Let's give it a try!
 

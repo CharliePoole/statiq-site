@@ -1,6 +1,6 @@
 Title: "When You Don't Have a Framework"
 Published: 08 Nov 2005
-Tags: [NUnit,TDD,It's the Tests]
+Tags: [TDD]
 ---
 We forget sometimes how easy it is to write tests - even without a framework. I was sitting in a cafe, working on my new laptop. It's an Acer Ferrari 4000 that I'm very happy with, but I haven't completely set it up yet.
 

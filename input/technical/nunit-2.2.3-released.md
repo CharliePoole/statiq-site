@@ -1,6 +1,6 @@
 Title: "NUnit 2.2.3 Released"
 Published: 15 Nov 2005
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 NUnit 2.2.3 is now out. You can get it at our <a href="http://nunit.sf.net">SourceForge site</a>. The release notes are available <a href="http://nunit.org/?p=releaseNotes&r=2.2.3">here</a>.
 

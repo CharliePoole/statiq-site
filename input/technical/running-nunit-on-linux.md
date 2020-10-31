@@ -1,6 +1,6 @@
 Title: "Running NUnit on Linux"
 Published: 30 Jul 2006
-Tags: [NUnit,Open Source,OSCON,It's the Tests]
+Tags: [NUnit V2,Open Source,OSCON]
 ---
 At OSCON, I spoke about NUnit for Cross-Platform development. Here are some screenshots from that talk, showing NUnit running under Mono 1.1.13 on Ubuntu Linux. (Click to enlarge)
 

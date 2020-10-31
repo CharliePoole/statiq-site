@@ -1,6 +1,6 @@
 Title: "Four Ways to Test Expected Exceptions"
 Published: 02 Aug 2008
-Tags: [NUnit,TDD,It's the Tests]
+Tags: [NUnit V2,TDD]
 ---
 Let's say we are testing a piece of code, using arguments that should cause an exception to be thrown. We want the test to ensure that an exception was thrown, that it was the expected Type of exception and - possibly - that the properties of the exception are what they should be.
 

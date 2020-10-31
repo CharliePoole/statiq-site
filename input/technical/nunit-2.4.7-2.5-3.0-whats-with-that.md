@@ -1,6 +1,6 @@
 Title: "NUnit 2.4.7, 2.5, 3.0: What's With That?"
 Published: 02 May 2008
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 A few folks are confused by the various release numbers being announced or discussed all at one time, so I thought I'd clarify:
 

@@ -1,6 +1,6 @@
 Title: "Moving to WiX"
 Published: 23 Sep 2006
-Tags: [NUnit,Open Source,WiX,It's the Tests]
+Tags: [NUnit V2,Open Source,WiX]
 ---
 NUnit has finally gotten rid of it's Visual Studio Install projects in favor of WiX
 

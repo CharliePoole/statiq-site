@@ -1,6 +1,6 @@
 Title: "Running NUnit Tests from Code"
 Published: 06 May 2006
-Tags: [NUnit, It's the Tests]
+Tags: [NUnit V2]
 ---
 There are some traps involved in running tests from code that are not immediately obvious. This was brought forcibly to my attention when I recently worked on a failing test that someone else had written.
 

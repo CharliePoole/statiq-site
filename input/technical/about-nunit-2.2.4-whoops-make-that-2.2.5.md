@@ -1,6 +1,6 @@
 Title: "About NUnit 2.2.4... Whoops... Make that 2.2.5"
 Published: 25 Dec 2005
-Tags: [NUnit,TDD,It's the Tests]
+Tags: [NUnit V2,TDD]
 ---
 I've been occupied with other things and not blogging lately. Meanwhile - in fact this is one of the things I've been occupied with - NUnit 2.2.4 was released. People tried it and found a few bugs - NUnit 2.2.5 corrects them.
 

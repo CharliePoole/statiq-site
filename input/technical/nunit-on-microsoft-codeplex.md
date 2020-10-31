@@ -1,6 +1,6 @@
 Title: "NUnit on Microsoft CodePlex?"
 Published: 16 May 2006
-Tags: [NUnit, It's the Tests]
+Tags: [NUnit V2]
 ---
 A reader asks "What is this about?" pointing to the new Microsoft <a target="_blank" href="http://www.codeplex.com">CodePlex</a> site, which mentions NUnit.
 

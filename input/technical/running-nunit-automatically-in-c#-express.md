@@ -1,6 +1,6 @@
 Title: "Running NUnit Automatically in C# Express"
 Published: 27 May 2006
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 A post on the **TDD** list asks about running NUnit tests using the Start button in Visual C# Express. In Visual Studio 2003 and 2005, you can set up a project's Debug properties so that an arbitrary external program is executed. By selecting NUnit as that program and providing the correct command-line options, you can cause your tests to be run.
 

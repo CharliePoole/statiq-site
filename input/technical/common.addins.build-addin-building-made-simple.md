@@ -1,6 +1,6 @@
 Title: "Common.Addins.Build : Addin Building Made Simple"
 Published: 05 May 2008
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 Let me start right out by saying: I **know** some of you won't find this to be simpler - but it is! If you can't bring yourself to install <a href="http://nant.sourceforge.net">NAnt</a> or work from the command line, then this isn't for you. But if you can get past the initial hump - or if you're already past it - then this is for you.
 

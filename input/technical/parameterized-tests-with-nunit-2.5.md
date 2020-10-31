@@ -1,6 +1,6 @@
 Title: "Parameterized Tests With NUnit 2.5"
 Published: 23 May 2008
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 It has been possible to write parameterized tests for NUnit for some time, using Andreas Schlapsi's **RowTest Extension**, which recognizes the RowTest and Row attributes familiar to MbUnit users.
 

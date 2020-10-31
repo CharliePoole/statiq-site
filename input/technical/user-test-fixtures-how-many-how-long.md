@@ -1,6 +1,6 @@
 Title: "User Test Fixtures: How Many? How Long?"
 Published: 16 Oct 2005
-Tags: [NUnit, TDD, It's the Tests]
+Tags: [NUnit V2, TDD]
 ---
 There's a discussion going on right now on the Yahoo Test-Driven Development list regarding the  use of a single instance of the user TestFixture  class in NUnit 2.x, as compared to multiple instances in NUnit 1.x and in JUnit before it. A related issue, discussed on the same list a while back, is the question of the lifetime of that single instance. Here's my take on how the issues relate and how NUnit deals with them.
 

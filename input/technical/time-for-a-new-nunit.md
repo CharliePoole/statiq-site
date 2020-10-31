@@ -1,6 +1,6 @@
 Title: "Time for a New NUnit"
 Published: 13 Dec 2007
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit]
 ---
 As I've worked on NUnit 2.4 and its follow-ups, I have begun to feel that it's time for a much more significant update to NUnit, a rethinking of what it's all about and how it should work. Of course, at the same time, I don't want to lose all the work that has gone into NUnit up to now. Puzzling over this, and helped by a group of dedicated NUnit users and contributors, I think I now have a direction to go.
 

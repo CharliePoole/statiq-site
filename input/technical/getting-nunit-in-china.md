@@ -1,6 +1,6 @@
 Title: "Getting NUnit in China"
 Published: 02 Mar 2006
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 A Chinese programmer (anonymous until he tells me otherwise) recently wrote to ask me for a copy of NUnit 2.2.7. For some reason, it appears that Sourceforge is not accessible in China. This seems odd to me, since it's hardly a political site, but the ways of bureaucracy in any country can be hard to fathom.
 

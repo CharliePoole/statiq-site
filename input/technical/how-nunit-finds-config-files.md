@@ -1,6 +1,6 @@
 Title: "How NUnit Finds Config Files"
 Published: 30 Sep 2005
-Tags: [NUnit, It's the Tests]
+Tags: [NUnit V2]
 ---
 Lots of people write to ask about the use of configuration files with NUnit. Usually, they have put some setting in a config file - somewhere - and are wondering why NUnit doesn't seem able to find it. In this post, I'll try to summarize the main issues around NUnit's use of configuration files. It really isn't all that complicated, once you understand a few things...
 

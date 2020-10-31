@@ -1,6 +1,6 @@
 Title: "Speed Up Reloading in NUnit 2.4.2"
 Published: 08 Aug 2007
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 When running under .NET 2.0, NUnit is rather slow at loading tests these days. Although many folks only noticed the slowdown with the release of NUnit 2.4, loading a large set of tests with NUnit 2.2 also takes more time - about twice as much - under .NET 2.0 as .NET 1.1.
 

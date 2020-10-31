@@ -1,6 +1,6 @@
 Title: "NUnit Extras: Test Result Summarizer"
 Published: 08 Aug 2007
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 NUnit is currently built under five different runtimes on Windows - plus two on Linux. Each build is tested under the same runtime on which it was built and on a number of the other runtimes. That's a lot of TestResult files.
 

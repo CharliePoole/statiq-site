@@ -1,6 +1,6 @@
 Title: "Using Lambdas as Constraints in NUnit 2.5"
 Published: 03 May 2009
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 Let's say you have an array of ints representing years, all of which should be leap years.
 

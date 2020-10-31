@@ -1,6 +1,6 @@
 Title: "More On Syntax: Expected Exceptions"
 Published: 01 Sep 2006
-Tags: [NUnit,TDD,It's the Tests]
+Tags: [NUnit V2,TDD]
 ---
 Sometimes you expect an exception to be thrown by a method. So, of course, you want a test for that. NUnit provides the ExpectedExceptionAttribute for that purpose. It has a bit of history...
 

@@ -1,6 +1,6 @@
 Title: "What's with OpenDomain.org?"
 Published: 30 Oct 2005
-Tags: [NUnit, Open Source, It's the Tests]
+Tags: [NUnit V2, Open Source]
 ---
 The **opendomain.org** site seems to have acquired **nunit.net**, a domain we thought about using but didn't. Now I'm sorry, since they could use it for pretty much any purpose.
 

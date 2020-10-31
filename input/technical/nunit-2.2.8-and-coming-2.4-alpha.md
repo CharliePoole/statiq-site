@@ -1,6 +1,6 @@
 Title: "NUnit 2.2.8 and Coming 2.4 Alpha"
 Published: 10 May 2006
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 I'm afraid I'm pretty erratic about announcing new NUnit releases on the blog.  NUnit 2.2.8 was released on April 21, 2006. It has a number of bug fixes to the original 2.2.4 feature base.
 

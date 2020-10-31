@@ -1,6 +1,6 @@
 Title: "The Tester Tested : Fit and NUnit"
 Published: 04 Oct 2006
-Tags: [NUnit,TDD,It's the Tests]
+Tags: [NUnit V2,TDD]
 ---
 NUnit has lots of tests of its own - unit tests that is. It even has some fairly high-level tests that don't fit well into the normal unit-testing paradigm. But, up to now, the only acceptance tests were manual - a list of things I do before uploading a new release. Since they are manual, they don't get run all that often and surprises happen.
 

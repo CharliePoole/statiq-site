@@ -1,6 +1,6 @@
 Title: "What's With NUnit 2.6.5?"
 Published: 01 May 2018
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 Some folks have expressed surprise at my release of NUnit 2.6.5. Their surprise is **no surprise**, given that the NUnit framework is now at version 3.10.1!
 

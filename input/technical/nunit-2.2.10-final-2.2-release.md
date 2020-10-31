@@ -1,6 +1,6 @@
 Title: "NUnit 2.2.10 - Final 2.2 Release"
 Published: 16 Mar 2007
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 Although NUnit 2.4 is almost out the door, there were a few outstanding bug fixes to the NUnit 2.2 series hanging around, so I decided to issue a final 2.2 release. Like all the releases since NUnit 2.2.4, this is primarily a bug fix release.
 

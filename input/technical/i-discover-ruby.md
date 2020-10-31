@@ -1,6 +1,6 @@
 Title: I "Discover" Ruby
 Published: 29 Jul 2006
-Tags: [OSCON,Ruby,TDD,It's the Tests]
+Tags: [OSCON,Ruby,TDD]
 ---
 This week at OSCON 2006 I finally learned some Ruby. I've been meaning to do this and learning by listening to Dave Thomas and Mike Clark seemed like it would be much more fun than simply reading a book. Turns out I was right.
 

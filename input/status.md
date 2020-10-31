@@ -19,10 +19,11 @@ until the migration is complete.
   Tags are also used and generally apply within a single topic, although that is not
   a restriction.
 
-* Moved all posts in my `It's the Tests` blog on `charliepoole.com` to this site under
-  the `Technical Posts` topic with the tag `It's the Tests` in addition to the subject
-  tags they already had. A few posts were dropped, mostly announcements of other articles,
-  which will be moved here anyway. A notice has been posted on the old blog.
+* Moved most posts in my `It's the Tests` blog on `charliepoole.com` to this site under
+  the `Technical Posts` topic. Posts about NUnit V2 were re-tagged `NUnit V2` while general
+  NUnit posts and those about NUnit 3 keep the `NUnit` tag. I dropped simple announcements,
+  without other content and a few that contain content, which is now incorrect or misleading.
+  The old blog now contains only a notice about this move.
 
 * Added a `Site Status` page (this one).
 
@@ -41,9 +42,14 @@ until the migration is complete.
 
 * Add a contact page
 
-* Update my bio and resume.
+* Update the `About` page, shortening it and linking it to my bio and resume as separate pages.
+
+* Add social media links.
 
 * Decide whether to support comments on blog posts and how.
+
+* Possibly, expand topics to allow nesting. For example, a `Family` Topic
+  might include both `Family History` and `Family Photos`.
 
 #### Technical Content
 

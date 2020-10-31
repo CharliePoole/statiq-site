@@ -1,6 +1,6 @@
 Title: "Running NUnit Tests in Ruby"
 Published: 29 Jul 2006
-Tags: [NUnit,OSCON,Ruby,It's the Tests]
+Tags: [NUnit V2,OSCON,Ruby]
 ---
 People want what they want. If NUnit doesn't have a feature that they need, they ask for it. Of course, we can't implement all of them, so some people want to be able to create there own test runner using the NUnit assemblies.
 

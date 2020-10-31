@@ -1,6 +1,6 @@
 Title: "Using Addins with NUnit-Console"
 Published: 02 May 2008
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit V2]
 ---
 A recent bug pointed out that addins are not recognized when running tests under the console runner. This is due to a missing entry in the **nunit-console.exe.config** file, which you can easily fix yourself. Follow these steps to have your addins recognized when using the console runner:
 

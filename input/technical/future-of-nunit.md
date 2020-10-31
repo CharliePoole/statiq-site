@@ -1,6 +1,6 @@
 Title: "Future of NUnit"
 Published: 24 Jan 2018
-Tags: [NUnit,It's the Tests]
+Tags: [NUnit]
 ---
 A while back I began to have some concern about the future of NUnit. I was entering my 70s and I knew I wanted to spend more time on other things. NUnit had been very much my project for a few years and I didn't want it to die when I was no longer maintaining it.
 

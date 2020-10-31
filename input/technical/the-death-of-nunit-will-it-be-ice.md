@@ -1,6 +1,6 @@
 Title: "The Death of NUnit - Will it be Ice?"
 Published: 06 Nov 2005
-Tags: [Open Source, NUnit, It's the Tests]
+Tags: [Open Source, NUnit V2]
 ---
 A recent post on the NUnit Open Discussion Forum on Sourceforge asked “Is NUnit Dead?” I have to admit: the question irked me a bit. But reflecting on it has led me to a few conclusions that I’ll share here.
 
