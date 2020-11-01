@@ -1,5 +1,5 @@
 Title: About Me
-Order: 2
+ShowInNavbar: false
 ---
 This page is an informal biography covering my education, career and other
 interests.

@@ -1,5 +1,5 @@
 Title: Site Status
-Order: 1
+ShowInNavbar: false
 ---
 ### What's Here
 

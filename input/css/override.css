@@ -1,9 +1,9 @@
-// Global overrides
+/* Global overrides */
 body {
   background-color: #e6f2ff;
 }
 
-// Overrides for the masthead
+/* Overrides for the masthead */
 header.masthead .page-heading a,
 header.masthead .site-heading a {
   color: white;
