@@ -2,7 +2,7 @@ Title: "More on Assert Syntax"
 Published: 03 Oct 2006
 Tags: [NUnit V2,TDD]
 ---
-In an [earlier post](thinking-about-assert-syntax.html), I presented some ideas about syntax for expressing assertions in tests. I was doing this as a part of the development of NUnitLite, with the idea of eventually putting some of the same concepts back into NUnit.
+In an [earlier post](/technical/thinking-about-assert-syntax.html), I presented some ideas about syntax for expressing assertions in tests. I was doing this as a part of the development of NUnitLite, with the idea of eventually putting some of the same concepts back into NUnit.
 
 I received many useful comments. Some of them are still percolating in my brain, but others have already found there way into the implementation of NUnitLite. As a way of paying back, I thought I would tell you here how I ended up resolving some of the issues we discussed.
 

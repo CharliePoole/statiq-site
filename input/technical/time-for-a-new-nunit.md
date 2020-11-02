@@ -12,7 +12,7 @@ On the other hand, it's more complex because it is moving from being a framework
 
 At the other end of things, you'll be able to use our new plugin architecture to enable NUnit to run whatever tests you like. Plugins will be available for common alternative frameworks and to add special functionality like parallel execution to the standard NUnit tests.
 
-I'll post more about what's coming in the near future. Meanwhile, for a more detailed overview, read the [NUnit 3.0 Vision](files/nunit-30-vision.pdf) document.
+I'll post more about what's coming in the near future. Meanwhile, for a more detailed overview, read the [NUnit 3.0 Vision](/files/nunit-30-vision.pdf) document.
 
 You can expect early (alpha ) releases in the first part of next year.
 

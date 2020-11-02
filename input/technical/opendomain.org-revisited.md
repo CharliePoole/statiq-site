@@ -1,8 +1,8 @@
 Title: "OpenDomain.org Revisited"
 Published: 24 Aug 2006
-Tags: [NUnit  V2,Open Source]
+Tags: [NUnit V2,Open Source]
 ---
-In an [earlier article](whats-with-opendomain.org.html) I wrote about my concern with OpenDomain.org. They had acquired the nunit.net domain and were offering me the right to use it in exchange for a link. I felt uncomfortable about this, particularly after I learned about their dispute over the WordPress.com domain.
+In an [earlier article](/technical/whats-with-opendomain.org.html) I wrote about my concern with OpenDomain.org. They had acquired the nunit.net domain and were offering me the right to use it in exchange for a link. I felt uncomfortable about this, particularly after I learned about their dispute over the WordPress.com domain.
 
 <!--more-->
 One comment to my post came from Ric Johnson, the guy behind OpenDomain.org. He said "Hey, we're the good guys!" and invited some dialog. I responded with a follow-up comment, saying, in part...

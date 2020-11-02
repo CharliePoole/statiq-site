@@ -40,7 +40,6 @@ Assert.That( actual, eq( expected ) );
 Assert.That( x, gt( 5 ) & lt( 10 ) );
 ```
 
-
 So what do folks think? Is it worth pursuing this syntactic approach? Or should we just go back to Assert.AreEqual and friends?
 
 Charlie
