@@ -30,6 +30,7 @@
 </ul>
     
 @{
+    const int MAX_TAGS = 20;
     IDocument[] tags = Outputs.Get("tags.html")?.GetChildren().OrderByDescending(x => x.GetChildren().Count()).ToArray();
     int numTags = tags.Length;
     int counter = 0;
@@ -40,13 +41,13 @@
             <h5>Tags</h5>
             @foreach (IDocument tag in tags)
             {
-                if (!isTagPage && ++counter > 10) break;
+                if (!isTagPage && ++counter > MAX_TAGS) break;
 
                 string badgeStyle = groupKey != null && groupKey.Equals(tag.GetTitle(), StringComparison.OrdinalIgnoreCase) ? "badge-dark" : "badge-light";
                 string postCount = tag.GetChildren().Count().ToString();
                 <a href="@Context.GetLink(tag)" class="badge @badgeStyle"> @tag.GetTitle() (@postCount)</a>
             }
-            @if (!isTagPage && numTags > 10)
+            @if (!isTagPage && numTags > MAX_TAGS)
             {
                 <div class="mt-3">
                     <div class="float-sm-right">
