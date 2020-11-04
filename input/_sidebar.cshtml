@@ -59,3 +59,20 @@
         </div>
     }
 }
+
+<div class="mt-4">
+    <h5>Years</h5>
+
+    <ul class="nav flex-column mb-4">
+        @foreach(IDocument doc in Outputs.Get("posts.html")
+            .GetChildren()
+            .OrderByDescending(x => x.GetTitle()))
+        {
+            string badgeStyle = groupKey != null && groupKey.Equals(doc.GetTitle(), StringComparison.OrdinalIgnoreCase) ? "badge-dark" : "badge-light";
+            string postCount = doc.GetChildren().Count().ToString();
+            <li class="nav-item">
+                <a class="badge @badgeStyle" href="@Context.GetLink(doc)">@doc.GetString("Title") (@postCount)</a>
+            </li>
+        }
+    </ul>
+</div>

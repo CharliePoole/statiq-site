@@ -1,25 +1,21 @@
 Title: Archive
-Order: 4
+Order: 11
 ArchiveSources: => GetString("PostSources")
+ArchiveKey: => GetDateTime(WebKeys.Published).Year
+ArchiveKeyComparer: => StringComparer.OrdinalIgnoreCase.ToConvertingEqualityComparer()
+ArchiveDestination: => $"posts/{NormalizedPath.OptimizeFileName(GetString("GroupKey"))}/index.html"
 ArchiveOrderKey: Published
 ArchiveOrderDescending: true
-IsPage: true
+ArchiveTitle: => GetString("GroupKey")
+ShowInNavbar: false
 ---
-@foreach(IGrouping<int, IDocument> group in Document
-    .GetChildren()
-    .GroupBy(x => x.GetDateTime(WebKeys.Published).Year)
-    .OrderByDescending(x => x.Key))
-{
-    <h1 class="bg-dark text-light p-2">@group.Key</h1>
-    foreach (IDocument post in group)
-    {
-        <div class="post-preview">
-            <h3 class="post-title">@Html.DocumentLink(post)</h3>
-            @if(post.ContainsKey("Lead"))
-            {
-                <div class="post-subtitle">@post.GetString("Lead")</div>
-            }
-            <p class="post-meta">Published on @post.GetDateTime(WebKeys.Published).ToLongDateString()</p>
+<div class="container-sm-height">
+    <div class="row row-sm-height">
+        <div class="col-md-9 right-border col-sm-height">
+            @Html.Partial("/_posts.cshtml", Document)
         </div>
-    }
-}
+        <div class="col-md-3 mt-4 mt-md-0 col-sm-height">
+            @Html.Partial("/_sidebar.cshtml", Document)
+        </div>
+    </div>
+</div>
