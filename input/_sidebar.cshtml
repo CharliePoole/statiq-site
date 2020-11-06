@@ -11,24 +11,6 @@
     string groupKey = Model.GetString(Keys.GroupKey);
 }
 
-<h5>Topics</h5>
-
-<ul class="nav flex-column">
-    @foreach (IDocument topic in topics)
-    {
-        if (topic != null)
-        {
-        string link = @Context.GetLink(topic);
-        string title = @topic.GetString("Title");
-        string badgeStyle = topic.Destination == Model.Destination ? "badge-dark" : "badge-light";
-
-        <li class="nav-item">
-            <a class="badge @badgeStyle" href="@link">@title</a>
-        </li>
-        }
-    }
-</ul>
-    
 @{
     const int MAX_TAGS = 20;
     IDocument[] tags = Outputs.Get("tags.html")?.GetChildren().OrderByDescending(x => x.GetChildren().Count()).ToArray();
@@ -61,7 +43,7 @@
 }
 
 <div class="mt-4">
-    <h5>Years</h5>
+    <h5>Archive</h5>
 
     <ul class="nav flex-column mb-4">
         @foreach(IDocument doc in Outputs.Get("posts.html")
