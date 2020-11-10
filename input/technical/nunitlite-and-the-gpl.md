@@ -2,7 +2,7 @@ Title: "NUnitLite and the GPL"
 Published: 19 May 2006
 Tags: [NUnit V2,Open Source,TDD]
 ---
-In my [last post](/posts/nunit-on-microsoft-codeplex.html), about the NUnit team's plans for trying out the Microsoft <a href="http://www.codeplex.com">CodePlex</a> site, I introduced the <a href="http://www.codeplex.com/Wiki/View.aspx?ProjectName=NUnitLite">NUNitLite</a> project. One thing I mentioned was the possibility of its being released under the GPL license. This seems to have gotten more reaction than anything else in the post. I find that a bit disappointing, because I thought there were some other cool things in it. :-)
+In my [last post](/technical/nunit-on-microsoft-codeplex.html), about the NUnit team's plans for trying out the Microsoft <a href="http://www.codeplex.com">CodePlex</a> site, I introduced the <a href="http://www.codeplex.com/Wiki/View.aspx?ProjectName=NUnitLite">NUNitLite</a> project. One thing I mentioned was the possibility of its being released under the GPL license. This seems to have gotten more reaction than anything else in the post. I find that a bit disappointing, because I thought there were some other cool things in it. :-)
 
 Be that as it may, I'll try to explain here why my next software project might use GPL and what kind of considerations I'm looking at in making a final choice.
 

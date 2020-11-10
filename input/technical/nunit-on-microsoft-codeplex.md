@@ -88,7 +88,7 @@ If you are - as you seem to be - philosophically opposed to the GPL as a whole, 
 
 In spite of your belief that the existing license has been very good to the community, I have seen the source incorporated in several proprietary products, from which improvements have never been returned to the community. I am therefore motivated to do something different in my next projects and a reciprocal license seems like a logical step. I'm open to discussion as to how to accomplish my goals. I'm not open to discussion of the sort you seem to be initiating, discussion about whether I ought to have such goals at all.
 
-When I hear somebody argueing against the mere consideration of an alternative, I find that I am usually in the company of a zealot. I'm not a GPL zealot, nor am I an anti-GPL bigot. I just want to figure out how to do what I want to do with my work. Please respect my right to do that.
+When I hear somebody arguing against the mere consideration of an alternative, I find that I am usually in the company of a zealot. I'm not a GPL zealot, nor am I an anti-GPL bigot. I just want to figure out how to do what I want to do with my work. Please respect my right to do that.
 >Charlie, Thursday, May 18, 2006
 
 ---

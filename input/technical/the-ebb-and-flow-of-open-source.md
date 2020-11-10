@@ -7,8 +7,8 @@ and that involves thinking about some things I have not thought of in years.
 
 Yesterday, I imported two old posts from 2005, which caused me a lot of reflection:
 
-* [The Death of NUnit: Will it be Ice?](/posts/the-death-of-nunit-will-it-be-ice.html) (6 November 2005)
-* [The Death of NUnit Revisited: Will it be Fire?](/posts/the-death-of-nunit-revisited-will-it-be-fire.html) (30 December 2005)
+* [The Death of NUnit: Will it be Ice?](/technical/the-death-of-nunit-will-it-be-ice.html) (6 November 2005)
+* [The Death of NUnit Revisited: Will it be Fire?](/technical/the-death-of-nunit-revisited-will-it-be-fire.html) (30 December 2005)
 
 Believe it or not, back in 2005, NUnit was considered a pretty old piece of software.
 Originally published in 2000, it had become the major xUnit-style test framework for
