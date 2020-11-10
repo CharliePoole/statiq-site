@@ -49,6 +49,14 @@ div.family-member {
   padding: 10px 20px 10px 0;
 }
 
+ul.share-buttons {
+  list-style: none;
+  padding: 0;
+}
+ul.share-buttons li {
+  display: inline;
+}
+
 div.pic { 
   /*margin: 0 auto 2em auto;*/
   padding: 0;
