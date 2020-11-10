@@ -1,6 +1,7 @@
 Title: The Two Minnies
 Published: 9/15/2020
 Tags: Poole Family
+Image: /images/babycharlieandgrandmothermary.jpg
 ---
 <p><img class="left" height=400 src="/images/babycharlieandgrandmothermary.jpg">
 My paternal grandmother, Mary Head Poole died in 1944. I was born in 1942 so I don't actually
