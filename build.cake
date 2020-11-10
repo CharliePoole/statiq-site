@@ -1,4 +1,4 @@
-#reference "bin/Debug/net5.0/FluentFTP.dll"
+#addin nuget:?package=FluentFTP&version=33.0.2
 
 using System.Security.Cryptography;
 using System.Xml;
