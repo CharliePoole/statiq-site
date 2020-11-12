@@ -3,13 +3,13 @@
 @{
     string title=Document.GetString(WebKeys.Title);
     string url = "https://" + Document.GetString(Keys.Host) + Context.GetLink(Document);
-    string text = $"New post from @CharliePoole - {title}: {url}";
 }
+
 <hr />
 
 <ul class="share-buttons">
     <li><a href="https://www.facebook.com/sharer/sharer.php?u=@url" title="Share on Facebook" target="_blank"><img src="/images/social/Facebook.png" alt="Share on Facebook"</a></li>
-    <li><a href="https://twitter.com/intent/tweet?source=@url&text=@text" title="Tweet" target="_blank"><img src="/images/social/Twitter.png" alt="Tweet"></a></li>
+    <li><a href="https://twitter.com/intent/tweet?text=@title&url=@url&via=CharliePoole" title="Tweet" target="_blank"><img src="/images/social/Twitter.png" alt="Tweet"></a></li>
     <!--<li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https://charliepoole.org/family-history/the-two-minnies&title=TITLE&summary=Check this out!&source=CharliePoole" Title="Share on LinkedIn" target="_blank"><img src="/images/social/LinkedIn.png" alt="Share on LinkedIn"></a></li>
     <li><a href="#" title="Send Email" target="_blank"><img src="/images/social/Email.png" alt="Send Email"></a></li>-->
 </ul>

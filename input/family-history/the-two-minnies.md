@@ -1,13 +1,14 @@
 Title: The Two Minnies
 Published: 9/15/2020
 Tags: Poole Family
-Image: /images/babycharlieandgrandmothermary.jpg
+SummaryImage: /images/babycharlieandgrandmothermary.jpg
 ---
-<p><img class="left" height=400 src="/images/babycharlieandgrandmothermary.jpg">
+<img class="left" height=400 src="/images/babycharlieandgrandmothermary.jpg">
+
 My paternal grandmother, Mary Head Poole died in 1944. I was born in 1942 so I don't actually
 remember her, but photos show that we did indeed meet. For a long time, I knew nothing very little
 about her. Thanks to US Census records, I learned about her life after marrying my grandfather
-in 1896, but I still knew nothing about her parents.</p>
+in 1896, but I still knew nothing about her parents.
 
 Then, while collecting information about my grandfather, I examined the 1892 New York State Census.
 It one told me that William Poole, my grandfather, was then living in Brooklyn at 73 Schenectady
