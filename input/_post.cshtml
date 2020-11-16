@@ -5,6 +5,9 @@
         ?? Model.GetString("OGImage");
     string summaryText = Model.GetString("SummaryText")
         ?? Model.GetString(Statiq.Html.HtmlKeys.Excerpt);
+    string postMeta = $"Published: {Model.GetDateTime(WebKeys.Published).ToLongDateString()}";
+    if (Model.ContainsKey("Updated"))
+        postMeta += $", Updated: {Model.GetDateTime("Updated").ToLongDateString()}";
 }
 
 <div class="post-preview">
@@ -13,7 +16,7 @@
     {
         <div class="post-subtitle">@Model.GetString("Lead")</div>
     }
-    <p class="post-meta">Published on @Model.GetDateTime(WebKeys.Published).ToLongDateString()</p>
+    <p class="post-meta">@postMeta</p>
     @if (summaryImage != null)
     {
         <img class="left" src="@summaryImage">

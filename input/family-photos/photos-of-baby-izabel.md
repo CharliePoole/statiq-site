@@ -1,5 +1,6 @@
 Title: Photos of Baby Izabel
 Published: 1/27/2002
+Updated: 9/26/2020
 Tags: Family Members
 SummaryImage: "/images/baby_izabel_image4.jpg"
 ---

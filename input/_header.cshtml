@@ -35,8 +35,14 @@
               string postDir = System.IO.Path.GetDirectoryName(Document.GetString("Destination")) ?? "";
               IDocument topic = Outputs.Get(postDir + "/index.html");
 
-              <div class="meta">Published on @Document.GetDateTime(WebKeys.Published).ToLongDateString()</div>
-              <div class="mt-3 mb-3">
+              <div class="meta">
+                <div>Published: @Document.GetDateTime(WebKeys.Published).ToLongDateString()</div>
+                @if (Document.ContainsKey("Updated"))
+                {
+                  <div>Last Update: @Document.GetDateTime("Updated").ToLongDateString()</div>
+                }
+              </div>
+              <div class="mt-3 mb-3" style="clear: both">
                 @if (topic != null)
                 {
                   <i>Topic:</i>

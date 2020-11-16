@@ -2,3 +2,4 @@ Host: charliepoole.org
 SiteTitle: CharliePoole.org
 LinkHideExtensions: false
 PostSources: "{technical,family-photos,family-history}/*"
+LastUpdate: => { if (Document.ContainsKey("Updated")) return Document.GetDateTime("Updated"); return Document.GetDateTime("Published"); };

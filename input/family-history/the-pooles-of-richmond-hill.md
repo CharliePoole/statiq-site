@@ -1,5 +1,6 @@
 Title: The Pooles of Richmond Hill
-Published: 10/29/2020
+Published: 3/29/2007
+Updated: 10/29/2020
 Tags: Poole Family
 SummaryImage: /images/thepoolesofrichmondhill_320x400.jpg
 ---
