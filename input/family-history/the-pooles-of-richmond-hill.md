@@ -1,6 +1,6 @@
 Title: The Pooles of Richmond Hill
 Published: 3/29/2007
-Updated: 10/29/2020
+Updated: 11/15/2020
 Tags: Poole Family
 SummaryImage: /images/thepoolesofrichmondhill_320x400.jpg
 ---
@@ -16,10 +16,11 @@ in Richmond Hill, Queens, New York, a location I recognize very well from my chi
 From front to back, we have Tom, Margaret, Theresa, Loretta, Catherine, Monica, Agnes,
 Mary, Jim, Charlie, Jack, Joe and Bill.
 
-These are all the children of William W. and Mary E. Poole, my grandparents.
-The picture must have been taken in the early 1930s, since it shows Jack, James and 
-Catherine in their religious dress, while Theresa and Margaret are still "civilians."
-It includes Agnes, who died in 1932.
+These are all the children of William W. and Mary E. Poole, my grandparents. It includes
+Agnes, who died in 1932. The picture shows Jack, James and Catherine in their religious
+dress, while Theresa and Margaret are still "civilians." Catherine took her vows on the
+feast of St. Joseph, March 19, in 1928. Teresa took hers on August 2, 1931, which narrows
+down the window of possible dates for the photo.
 
 William was born in Rosenallis, Queens County, Ireland in January, 1862 and emigrated
 to the United States in 1889, according to info given in the US Censuses for 1900 and 1910.
@@ -49,12 +50,18 @@ they must have been forced to find new housing pretty regularly.
 
 True to form, the 1915 New York State Census finds them living at 174 Hull Street, with four
 more children, Loretta, Theresa, Margaret and Thomas. Thomas will be their last child.
-William dies in 1918 and the 1920 US Census shows Mary as a widow. She is 44 years old and
-the head of a household with 13 children, aged 5 to 22. They now live Queens, at 257 128th
-Street.
 
-In the 1925 New York State Census, we find them living at 8479 127th Street, still in Queens.
-The same 13 children are still living at home although they will start leaving soon.
+William dies in February of 1918 Mary is left as a widow with 13 children, aged 3 to 20.
+Shortly thereafter, she moves with her children to 29 Euclid Avenue in Cypress Hills.
+This is a new address, not previously known. Because they moved twice between two censuses,
+it was not listed on either of them. However, in filling out the form for his draft card
+in August 1918, son William listed his mother as a person to contact, giving that address.
+
+The 1920 US Census shows the family living in Queens at 257 128th Street. Unfortunately,
+that's no longer a valid address and I puzzled over it quite a bit. However, the 1925 New York
+State Census, shows them living at 8479 127th Street. After some research, I have concluded
+that it's actually the same house. Streets and houses were being extensively renumbered during
+this period and I believe that's what happened here.
 
 In the 1930 US Census we finally see them in Richmond Hill, Queens, at 8782 115th Street,
 the house in the photo and the one I knew as their family home. By this time, four of the
@@ -65,11 +72,12 @@ Before I researched the family, I had assumed that William purchased the house i
 Hill, but it turns out he never saw it. Mary, his widow, somehow managed to provide with
 the help of her children. In the 1930 Census, the government was interested in seeing how many
 families were adopting the latest technology, so there was a column to indicate who had a radio.
-The Pooles had one! The house itself had a valuation of $10,000, which must have been an enormous sum for them to come up with.
+The Pooles had one! The house itself had a valuation of $10,000, which must have been an 
+enormous sum for them to come up with.
 
-In the 1940 Census, son William is back home and is listed as a widower. Of the others, only Mary
-(Minnie), Monica, Loretta and Thomas are still living at home. Agnes died in 1932 and the others
-have left home.
+In the 1940 Census, son William is back home and is listed as a widower. Thomas has returned
+from military service and is living at home along with Mary (Minnie), Monica, and Loretta.
+Agnes died in 1932 and the others have left home.
 
 Of the 13 children, six sons and seven daughters, five entered religious orders. John and Jim
 became priests while Margaret, Catherine and Theresa became nuns. Loretta entered the convent 
