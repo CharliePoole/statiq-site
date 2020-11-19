@@ -28,10 +28,13 @@ header.masthead .page-heading {
   border: 1px solid black;
 }
 
-#content div.comment {
-  margin: 20px 0;
-  border-top: 1px black solid;
-  border-bottom: 1px black solid;
+#content p.comment {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: .5em 1em;
+  font-style: italic;
+  border: 1px solid black;
+  background-color: #eee;
 }
 
 div.family-member {
