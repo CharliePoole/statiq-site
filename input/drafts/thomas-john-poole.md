@@ -11,15 +11,15 @@ and I'll update it as I get more information.</p>
 Tom was born on August 20, 1914, the youngest child of William and Mary Poole.
 At the time, they were living in Brooklyn, most likely at 174 Hull Street. In
 any case, we do know they were at that address 10 months later when the 1915
-New York State Census was taken. It was an apartment building, with four other 
-families living there at the same address. I haven't found a picture from the
+New York State Census was taken. It was an apartment building, with four other
+families living there at the same address. I haven't found a picture from
 back then, but here is a present day
 [view of the street.](https://goo.gl/maps/rFXaYe1htdznqtpe9)
 
 William died in 1918. Thomas was then three and a half years old so he probably
 had only vague memories of his father. Shortly thereafter, his mother moved the
-family to 29 Euclid Street in Cyprus Hills, close to the border between Broolyn
-and Queens. By January 1920, when the US Census is taken, they have moved again,
+family to 29 Euclid Street in Cyprus Hills, close to the border between Brooklyn
+and Queens. By January 1920, when the US Census was taken, they had moved again,
 this time a bit farther: to Holy Child Jesus parish in Queens.
 
 Their first address in Queens, 257 128th Street, is a bit of a mystery, since it
@@ -40,12 +40,12 @@ its doors in September 1917. Coincidentally, the 111th Street station of the
 BMT elevated line along Jamaica Avenue had just opened a few months earlier.
 
 Thomas appears on the published Honor Roll in second grade, the only record
-of him I have been able to find. We would have graduated from eighth grade
+of him I have been able to find. He would have graduated from eighth grade
 in 1926 and from high school in 1932. Census data tells us that was the extent
 of his formal education, which was pretty much normal for the period and for
 most Poole family members who did not enter religious orders.
 
-At some point during the period from 1925 to 1930, Mary Head managed to purchase
+At some point during the period from 1925 to 1930, Mary managed to purchase
 a home at 8782 115th Street, the first house owned by the family. That house
 is very familiar to me since I frequently visited my aunts there as a child.
 The location was much more central in the parish, only a few minutes walk
@@ -55,15 +55,15 @@ In August 1932, when he was 17 years old, Tom's sister Agnes died. She was 31
 and her death made a big impression on the family, continuing through my own
 childhood and even later.
 
-At the time of the 1940 census, Tom is 26 and is working for the Department
-of Commerce, Bureau of Marine inspection as a stenographer. He is also active
-in the church and in January 1942 is elected Secretary of the Holy Child Jesus
+At the time of the 1940 census, Tom was 26 and working for the Department
+of Commerce, Bureau of Marine inspection as a stenographer. He was also active
+in the church and in January 1942 was elected Secretary of the Holy Child Jesus
 Men's club.
 
-A month later, however, he is drafted and enters the army. He serves in
-Fort Dix, New Jersey, and rises to the rank of Staff Sergeant. He wrote home
-regularly and his granddaughter, was able to safeguard the letters. They are
-interesting reading and give a picture of everyday life at the time.
+A month later, however, he was drafted and entered the army. He served in
+Fort Dix, New Jersey, rising to the rank of Staff Sergeant. He wrote home
+regularly and his granddaughter Christine has managed to safeguard the letters.
+They are interesting reading and give a picture of everyday life at the time.
 
 Tom was discharged from the army in October 1943. A few months later, in January
 1944, his mother Mary died. Of course this was an enormous blow to the family.
@@ -79,17 +79,17 @@ On May 3, 1945, Thomas and Eileen Jane Byrnes got a marriage license from the
 City of New York and married shortly thereafter. I have not been able to find
 a record the date and place of the wedding. Eileen was the proverbial "girl
 next door" - her parents lived a few houses along the street from the Pooles.
-or at least down the street. It's not clear where they lived immediately
-after the marriage, but it could have been with either family.
+It's not clear where they lived immediately after the marriage, but it could
+have been with either family.
 
 Shortly afterwards, newspaper records show Tom continuing to be very active in
 the Catholic Debating League, but associated with a different parish. In October
-of 1945 he chairs a debate at Our Lady of Perpetual Help church in South Ozone
-Park. In December,the Holy Name Society at OLPH names him chairman of their
+of 1945 he chaired a debate at Our Lady of Perpetual Help church in South Ozone
+Park. In December,the Holy Name Society at OLPH named him chairman of their
 debating team. One article refers to him as a former member of the Holy Child
 Jesus team.
 
-In July of 1946, Thomas is elected Secretary of the Catholic Debating League
+In July of 1946, Thomas was elected Secretary of the Catholic Debating League
 of the Diocese of Brooklyn. This was a pretty big deal. Today the diocese covers
 Brooklyn and Queens but before 1957 it included all of Long Island. Tom's 
 experience as a stenographer probably made him a natural choice as secretary,
@@ -99,14 +99,8 @@ member of the community.
 We don't know why Tom changed parishes around 1945-46. The most likely explanation
 is that he moved into the new parish but we don't yet have that information.
 
-On March 8 1947 Tom and Eileen's daughter was born. She was named Eileen Jane.
+On March 8 1947 Tom and Eileen's daughter was born. She was named Eileen Jane,
 following the Irish tradition of naming the first-born daughter after the mother.
-Eileen was one of the few cousins my sister and I actually knew. In the 1950s,
-Uncle Tom, aunt Eileen and cousin Eileen would come to see us. Tom owned a car
-and we would occasionally take trips "out to Long Island." Two places I remember
-visiting with them were Valley Stream State Park and a sort of roadhouse in
-Oyster Bay. The latter had nice grounds and play equipment and we were all able
-to play under our mothers' eyes while the two brothers had beers inside.
 
 One hint about living arrangements shows up in a 1948 personal add in _The Tablet_:
 
@@ -117,9 +111,30 @@ actually Tom's wife, then it would mean they were looking for a place to live. T
 telephone exchange appears to be in the Shore Road area of Brooklyn, in case that
 may serve as an additional hint.
 
-Sadly, I have almost no information about the remainder of Tom's life. His brother
-William, the eldest son of the family, died in 1950 and Jack died in 1952. Tom
-himself passed away in 1964.
+I have almost no information about the remainder of Tom's life up to his
+death in November 1964. Yet that period, starting around 1950, is where my own memories
+of Tom and his family live.
 
-At the time of Uncle Tom's passing I was 22. I spoke briefly with Eileen at the
-funeral and didn't see her again for over 40 years. But that's for another post.
+My sister and I are probably the only remaining family members who remember Tom
+and his family. His daughter Eileen was one of the few cousins we actually knew and
+spent time with. In the 1950s, Uncle Tom, aunt Eileen and cousin Eileen would come
+to see us. Tom owned a car and we would occasionally take trips "out to Long Island."
+Two places I remember visiting with them were Valley Stream State Park and a sort
+of roadhouse in Oyster Bay. The latter had nice grounds and play equipment and we
+were all able to play under our mothers' eyes while the two brothers drank beer inside.
+
+But those occasions were completely separate from the rest of the family. Holiday
+celebrations at the family home didn't generally include Tom and his family. As
+children, we didn't really understand this but today I think it was due to a degree
+of antipathy between Tom's wife Eileen and "the girls" - the three sisters who
+still lived in the family home.
+
+Doing this research and learning of his steady involvement with the church and his
+participation in groups like the Debating League has been a bit of a revelation
+for me. Clearly there was more to him than just a fun guy and drinking buddy to
+my father. The mystery is around whether and how he changed over time.
+
+At the time of Uncle Tom's passing I was 22. I hadn't seen my young cousin Eileen
+for a number of years. We spoke at the funeral and I was struck with her loss,
+wondering how she would cope, what would become of her and whether the family would
+help. I didn't see her again for over 40 years. But that's a story for another post.
