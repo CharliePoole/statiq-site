@@ -1,19 +1,17 @@
-Title: Thomas John Poole
+Person: Poole, Thomas John
 Lead: (1914-1964)
-Published: 11/16/2020
-Tags: Poole Family
+Birth: 8/20/1914
+Death: 11/19/1964
 ---
-<p class="comment">This page contains notes about the life of my uncle Tom, my father's brother,
-whom I knew as a child. In addition to information found in my research, I have
-freely mixed in observations based on my own memories. It's also a work in progress
-and I'll update it as I get more information.</p>
+Thomas John Poole was born on August 20, 1914, the youngest child of William
+and Mary Poole. He was named after a previous child Thomas, who died at the
+age of two months in 1907.
 
-Tom was born on August 20, 1914, the youngest child of William and Mary Poole.
-At the time, they were living in Brooklyn, most likely at 174 Hull Street. In
-any case, we do know they were at that address 10 months later when the 1915
-New York State Census was taken. It was an apartment building, with four other
-families living there at the same address. I haven't found a picture from
-back then, but here is a present day
+At the time of his birth, the family was living in Brooklyn, most likely at
+174 Hull Street. In any case, we do know they were at that address 10 months 
+later when the 1915 New York State Census was taken. It was an apartment building,
+with four other families living there at the same address. I haven't found a picture
+from back then, but here is a present day
 [view of the street.](https://goo.gl/maps/rFXaYe1htdznqtpe9)
 
 William died in 1918. Thomas was then three and a half years old so he probably
@@ -41,9 +39,11 @@ BMT elevated line along Jamaica Avenue had just opened a few months earlier.
 
 Thomas appears on the published Honor Roll in second grade, the only record
 of him I have been able to find. He would have graduated from eighth grade
-in 1926 and from high school in 1932. Census data tells us that was the extent
-of his formal education, which was pretty much normal for the period and for
-most Poole family members who did not enter religious orders.
+in 1926. He attended high school at Cathedral College, which was actually
+a minor seminary, so he may have thought about the priesthood. Cathedral had
+a four year high school and two year college program. Census data tells us
+that was he completed high school, which was pretty much normal for the period
+and for most Poole family members who did not enter religious orders.
 
 At some point during the period from 1925 to 1930, Mary managed to purchase
 a home at 8782 115th Street, the first house owned by the family. That house
@@ -75,12 +75,16 @@ Child Jesus men's club in a debate against a team from another parish. The topic
 was raising the subway fare to five cents. His team drew the affirmative position,
 arguing that the fare should be raised. They lost.
 
-On May 3, 1945, Thomas and Eileen Jane Byrnes got a marriage license from the
-City of New York and married shortly thereafter. I have not been able to find
-a record the date and place of the wedding. Eileen was the proverbial "girl
-next door" - her parents lived a few houses along the street from the Pooles.
-It's not clear where they lived immediately after the marriage, but it could
-have been with either family.
+On May 5, 1945, Thomas and Eileen Jane Byrnes were married in Holy Child Jesus
+church in a Solemn High Nuptial Mass sung by Father John Poole, Tom's brother.
+He was assisted by two other priests, one a friend of the Byrnes family and the
+other a classmate of Tom's from Cathedral College. Tom's brother Charlie (my father)
+was best man.
+
+Eileen was the proverbial "girl next door" - her parents lived a few houses along
+the street from the Pooles. The couple honeymooned in the Poconos. It's not clear
+where they lived immediately after the marriage, but according to newspaper reports
+they intended to live in Richmond Hill. It could even have been with either family.
 
 Shortly afterwards, newspaper records show Tom continuing to be very active in
 the Catholic Debating League, but associated with a different parish. In October
@@ -115,8 +119,12 @@ I have almost no information about the remainder of Tom's life up to his
 death in November 1964. Yet that period, starting around 1950, is where my own memories
 of Tom and his family live.
 
-My sister and I are probably the only remaining family members who remember Tom
-and his family. His daughter Eileen was one of the few cousins we actually knew and
+My sister Agnes and I are probably the only remaining family members who remember
+Tom and his family. He was a very kind man who always behaved in a caring way
+toward his wife and daughter. That made him exceptional in the Poole family, a
+pretty judgemental bunch overall. He was probably my father's closest friend.
+
+His daughter Eileen was one of the few cousins we actually knew and
 spent time with. In the 1950s, Uncle Tom, aunt Eileen and cousin Eileen would come
 to see us. Tom owned a car and we would occasionally take trips "out to Long Island."
 Two places I remember visiting with them were Valley Stream State Park and a sort
