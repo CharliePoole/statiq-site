@@ -8,12 +8,26 @@ ArchiveOrderDescending: true
 ArchiveTitle: Family History
 IsPost: false
 ---
+<div style="margin: 0 15px">
+    <p>In recent years, I've become fascinated - maybe obsessed - with researching
+    into the history of my family. I use accounts on Ancestry, FindMyPast, MyHeritage
+    and FamilySearch to locate records. In this part of my web site, I record as much
+    information as I can along with my own stories and memories and those of others
+    in my family.</p>
+
+    <hr>
+</div>
+
 <div class="container-sm-height">
     <div class="row row-sm-height">
         <div class="col-md-9 right-border col-sm-height">
             @Html.Partial("/_posts.cshtml", Document)
         </div>
         <div class="col-md-3 mt-4 mt-md-0 col-sm-height">
+            <div class="mt-4">
+                <h5>Family</h5>
+                <a class="badge badge-light" href="/family-history/people/">All Members...</a>
+            </div>
             @Html.Partial("/_sidebar.cshtml", Document)
         </div>
     </div>

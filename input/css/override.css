@@ -38,14 +38,15 @@ header.masthead .page-heading {
 }
 
 div.family-member {
-    min-width: 200px;
-    max-width: 300px;
-    min-height: 150px;
-    max-height: 200px;
+    min-width: 300px;
+    height: 80px;
     margin: 10px;
     padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
     float: left;
-    border: 2px solid black;
 }
 
 #mainNav .navbar-brand {

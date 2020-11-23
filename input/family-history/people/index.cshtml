@@ -1,0 +1,63 @@
+Title: Family Members
+ArchiveSources: family-history/people/*
+ArchiveOrderKey: Person
+---
+<style>
+    .container { max-width: 100%; }
+    #content { background: #e6f2ff; width: auto; border: 0; }
+</style>
+
+<div style="display: flex; justify-content: center; flex-wrap: wrap;">
+
+@foreach (var doc in Document.GetChildren())
+{
+    if (doc.ContainsKey("Person"))
+    {
+        string link = Context.GetLink(doc);
+        string name = doc.GetString("Person");
+        bool living = doc.GetBool("Living");
+
+        string birth = FormatDate(doc.GetString("Birth"));
+        if (string.IsNullOrEmpty(birth))
+            birth = "??";
+
+        string death = FormatDate(doc.GetString("Death"));
+        if (string.IsNullOrEmpty(death))
+            death = living ? "Living" : "??";
+
+        <div class="family-member">
+            <b><a href="@link">@name</a></b>
+            <br>
+
+            @if (living && birth == "??")
+            {
+                <span>Living</span>
+            }
+            else
+            {
+                <span>@birth - @death</span>
+            }
+
+        </div>
+    }
+}
+
+</div>
+
+@functions
+{
+    string FormatDate(string s)
+    {
+        DateTime dt;
+        if (DateTime.TryParse(s, out dt))
+        {
+            string[] parts = s.Split(new char[] { ' ', ',', '/' });
+            if (parts.Length == 3)
+                return dt.ToString("dd MMM yyyy");
+
+            return dt.ToString("MMM yyyy");
+        }
+
+        return s;
+    }
+}
