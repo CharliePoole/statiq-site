@@ -1,7 +1,7 @@
 Title: Christmas Eve 1997
 Published: 1/1/1998
 Updated: 9/26/2020
-Tags: Family Events
+Tags: [Family Events, Family Photos]
 SummaryText: Charlie and Phyllis had been in Florida until the 22nd and were in no shape to be hosts this year. John and Kim volunteered to have us all over and did a really great job. We had a wonderful roast beef dinner and enjoyed opening presents around the tree.
 SummaryImage: "/images/christmas97_image1.jpg"
 ---

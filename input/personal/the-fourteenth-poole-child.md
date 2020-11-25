@@ -1,6 +1,6 @@
 Title: The Fourteenth Poole Child
 Published: 11/19/2020
-Tags: Poole Family
+Tags: [Poole Family, Family History]
 ---
 As children, my sister and I had always been  told that there were 
 fourteen children in my father's family, but we only knew the names

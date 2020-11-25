@@ -49,6 +49,18 @@ div.family-member {
     float: left;
 }
 
+div.family-member:hover {
+    background-color: #ddd;
+}
+
+div.family-member a {
+  text-decoration: none;
+}
+
+div.family-member a:hover {
+  color: black;
+}
+
 #mainNav .navbar-brand {
   padding: 10px 20px 10px 0;
 }
@@ -152,4 +164,32 @@ code {
 .token.function,
 .token.class-name {
   color: #2b91af;
+}
+
+/* Bootstrap cards used for navigation. Use nav-deck and
+   nav-card on elements along with card-deck and card. */
+div.nav-deck {
+  justify-content: center;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+div.nav-card {
+    max-width: 300px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: #eee;
+    text-align: center;
+}
+
+div.nav-card a {
+    text-decoration: none;
+}
+
+div.nav-card:hover {
+    background-color: #ddd;
+}
+
+div.nav-card a:hover {
+    color: black;
 }

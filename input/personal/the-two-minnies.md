@@ -1,6 +1,6 @@
 Title: The Two Minnies
 Published: 9/15/2020
-Tags: Poole Family
+Tags: [Poole Family, Family History]
 SummaryImage: /images/babycharlieandgrandmothermary.jpg
 ---
 <img class="left" height=400 src="/images/babycharlieandgrandmothermary.jpg">

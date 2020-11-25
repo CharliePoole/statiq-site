@@ -1,6 +1,6 @@
 Title: Poole Family Walking Tour
 Published: 11/15/2020
-Tags: Poole Family
+Tags: [Poole Family, Family History]
 ---
 I was having difficulty visualizing the many places the Poole family lived from the time
 my grandfather William arrived from Ireland till they ended up on 115th Street in Richmond

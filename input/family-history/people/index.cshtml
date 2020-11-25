@@ -25,8 +25,8 @@ ArchiveOrderKey: Person
         if (string.IsNullOrEmpty(death))
             death = living ? "Living" : "??";
 
-        <div class="family-member">
-            <b><a href="@link">@name</a></b>
+        <div class="card family-member">
+            <b><a class="stretched-link" href="@link">@name</a></b>
             <br>
 
             @if (living && birth == "??")

@@ -1,10 +1,10 @@
 Title: The Pooles of Richmond Hill
 Published: 3/29/2007
 Updated: 11/15/2020
-Tags: Poole Family
+Tags: [Poole Family, Family History]
 SummaryImage: /images/thepoolesofrichmondhill_320x400.jpg
 ---
-<div><a href="/family-history/files/the-pooles-of-richmond-hill-photo.html"><img class="left" width=320 src="/images/thepoolesofrichmondhill_320x400.jpg"></a></div>
+<div><a href="/personal/files/the-pooles-of-richmond-hill-photo.html"><img class="left" width=320 src="/images/thepoolesofrichmondhill_320x400.jpg"></a></div>
 
 For me, "the Pooles" will always mean my father's family. Their quirks dominated
 much of my childhood and things about them still come back to haunt me today.
@@ -33,7 +33,7 @@ Living at the same address, in what was probably a tenement, and listed immediat
 William in the census document, we find the Head family, including a daughter Mary E. Head,
 called "Minnie", who became William's wife in 1897. In fact, the Heads actually show __two__
 daughters of the same name, which creates a bit of a puzzle that I wrote about in another
-post, [The Two Minnies](/family-history/the-two-minnies.html).
+post, [The Two Minnies](/personal/the-two-minnies.html).
 
 The 1900 US Census shows William and Mary now living at 452 Sixteenth Street, Brooklyn.
 They have been married for three years and already have three children: William
