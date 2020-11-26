@@ -35,8 +35,11 @@ I have found along with personal stories and memories about the family.
 
 #### External Sites
 
-I use several genealogy sites for my research. In general, you can view the trees on each of them but will not be able to see details of living persons without special permission. Of course, if you're part of the family, just email me and I'll be happy
-to set you up so you can view everything.
+I use several genealogy sites for my research. You can view the trees on each of them
+but will need to set up an account first. A free account works fine. You will not be
+able to see details of living persons right away because of privacy concerns but if
+you're a member of the family and email me I'll be happy to give you the necessary
+permissions.
 
 <div class="card-deck nav-deck">
 

@@ -1,4 +1,4 @@
 Person: Poole, Theresa Marie
-Birth: 12/9/1969
+Birth: 12/7/1969
 Living: true
 ---

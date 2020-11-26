@@ -7,36 +7,82 @@ ArchiveOrderKey: Person
     #content { background: #e6f2ff; width: auto; border: 0; }
 </style>
 
+<p class="comment">
+    This page is still under construction. Clicking on any of these cards
+    will eventually take you to a page about the named person. However,
+    at this time, most of those pages do not yet exist and clicking on the
+    card has no effect. Clickable cards show the name in a bold font.
+</p>
+
+@{
+    var documents = new List<IDocument>();
+    var surnames = new List<string>();
+
+    foreach (var doc in Document.GetChildren())
+    {
+        if (doc.ContainsKey("Person"))
+        {
+            documents.Add(doc);
+            var name = doc.GetString("Person");
+            int comma = name.IndexOf(',');
+            if (comma > 0)
+            {
+                var surname = name.Substring(0, comma);
+                if (!surnames.Contains(surname))
+                    surnames.Add(surname);
+            }
+        }
+    }
+}
+
 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
 
-@foreach (var doc in Document.GetChildren())
+@foreach (var doc in documents)
 {
-    if (doc.ContainsKey("Person"))
+    string link = Context.GetLink(doc);
+    string name = doc.GetString("Person");
+    bool living = doc.GetBool("Living");
+    bool hasData = !string.IsNullOrEmpty(doc.GetString("Excerpt"));
+
+    string birth = FormatDate(doc.GetString("Birth"));
+    if (string.IsNullOrEmpty(birth))
+        birth = "??";
+
+    string death = FormatDate(doc.GetString("Death"));
+    if (string.IsNullOrEmpty(death))
+        death = living ? "Living" : "??";
+
+    if (hasData)
     {
-        string link = Context.GetLink(doc);
-        string name = doc.GetString("Person");
-        bool living = doc.GetBool("Living");
-
-        string birth = FormatDate(doc.GetString("Birth"));
-        if (string.IsNullOrEmpty(birth))
-            birth = "??";
-
-        string death = FormatDate(doc.GetString("Death"));
-        if (string.IsNullOrEmpty(death))
-            death = living ? "Living" : "??";
-
         <div class="card family-member">
             <b><a class="stretched-link" href="@link">@name</a></b>
             <br>
+        
+        @if (living && birth == "??")
+        {
+            <span>Living</span>
+        }
+        else
+        {
+            <span>@birth - @death</span>
+        }
 
-            @if (living && birth == "??")
-            {
-                <span>Living</span>
-            }
-            else
-            {
-                <span>@birth - @death</span>
-            }
+        </div>
+    }
+    else
+    {
+        <div class="card family-member-nodata">
+            @name
+            <br>
+
+        @if (living && birth == "??")
+        {
+            <span>Living</span>
+        }
+        else
+        {
+            <span>@birth - @death</span>
+        }
 
         </div>
     }

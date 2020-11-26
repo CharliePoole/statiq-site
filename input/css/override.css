@@ -37,7 +37,7 @@ header.masthead .page-heading {
   background-color: #eee;
 }
 
-div.family-member {
+div.family-member, div.family-member-nodata{
     min-width: 300px;
     height: 80px;
     margin: 10px;
@@ -53,11 +53,11 @@ div.family-member:hover {
     background-color: #ddd;
 }
 
-div.family-member a {
+div.family-member a, div.family-member-nodata a{
   text-decoration: none;
 }
 
-div.family-member a:hover {
+div.family-member a:hover, div.family-member-nodata a:hover {
   color: black;
 }
 
