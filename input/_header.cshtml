@@ -1,6 +1,7 @@
 @{
     string title = Document.GetString("Title") ?? Document.GetString("SiteTitle");
     bool isPost = Document.GetBool("IsPost") && title != "Tags" && title != "Archive";
+    bool isPerson = Document.ContainsKey("Person");
     bool hasImage = Document.ContainsKey(WebKeys.Image);
     string linkedPost = Document.GetString("linkedPost");
     string description = Document.WithoutSettings().GetString("Lead") ?? Document.WithoutSettings().GetString(WebKeys.Description);
@@ -66,6 +67,10 @@
               <div class="mt-3 mb-3">
                 <a href="@Context.GetLink(linkedPost)" class="badge badge-light">&lt;&lt; Back to Post</a>
               </div>
+          }
+          else if (isPerson)
+          {
+
           }
         </div>
       </div>

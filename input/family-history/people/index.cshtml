@@ -15,14 +15,15 @@ ArchiveOrderKey: Person
 </p>
 
 @{
-    var documents = new List<IDocument>();
+    // Create lists of persons and individual surnames
+    var persons = new List<IDocument>();
     var surnames = new List<string>();
 
     foreach (var doc in Document.GetChildren())
     {
         if (doc.ContainsKey("Person"))
         {
-            documents.Add(doc);
+            persons.Add(doc);
             var name = doc.GetString("Person");
             int comma = name.IndexOf(',');
             if (comma > 0)
@@ -35,9 +36,45 @@ ArchiveOrderKey: Person
     }
 }
 
+<!-- Display Filter UI -->
+<div class="ml-4">
+
+    <div style="float: left; whitespace: nowrap; margin: 0 20px;">
+    <label for="surnames">Filter by surname:</label>
+    <select name="surnames" id="surnames" width="20em" onchange="applyFilters()">
+        <option selected>All surnames</option>
+
+    @foreach(string surname in surnames)
+    {
+        <option>@surname</option>
+    }
+
+    </select>
+    </div>
+
+    <div style="float: left">
+    <div style="float: left; whitespace: nowrap; margin: 0 20px;">
+    <input type="checkbox" name="living" id="living" onchange="applyFilters()" checked>
+    <label for="living"></label>Show living family members</label>
+    </div>
+
+    <div style="float: left; whitespace: nowrap; margin: 0 20px;">
+    <input type="checkbox" name="deceased" id="deceased" onchange="applyFilters()" checked>
+    <label for="deceased">Show deceased family members</label>
+    </div>
+    </div>
+
+    <div style="float: left; whitespace: nowrap; margin: 0 20px;">
+    <button onclick="clearFilters()">Clear Filters</button>
+    </div>
+
+    <div style="clear: both" />
+
+</div>
+
 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
 
-@foreach (var doc in documents)
+@foreach (var doc in persons)
 {
     string link = Context.GetLink(doc);
     string name = doc.GetString("Person");
@@ -107,3 +144,37 @@ ArchiveOrderKey: Person
         return s;
     }
 }
+
+<script lang="javascript">
+    let cards = document.getElementsByClassName("card");
+
+    let surnames = document.getElementById("surnames");
+    let living = document.getElementById("living");
+    let deceased = document.getElementById("deceased");
+
+    function applyFilters()
+    {
+        var surname = surnames.value;
+        var showLiving = living.checked;
+        var showDeceased = deceased.checked;
+
+        var card;
+        for(card of cards) {
+            var text = card.innerText.trim();
+            var isLiving = text.search("Living") > 0;
+            var showCard = ((isLiving) ? showLiving:showDeceased) && (surnames.selectedIndex == 0 || text.startsWith(surname));
+            card.style.display = (showCard) ? "block":"none";
+        }
+    }
+
+    function clearFilters()
+    {
+        surnames.selectedIndex = 0;
+        living.checked = true;
+        deceased.checked = true;
+
+        var card;
+        for (card of cards)
+            card.style.display = "block";
+    }
+</script>
