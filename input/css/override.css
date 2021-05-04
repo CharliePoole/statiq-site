@@ -175,11 +175,12 @@ div.nav-deck {
 }
 
 div.nav-card {
-    max-width: 300px;
+    max-width: 240px;
     border-color: black;
     border-radius: 20px;
     background-color: #eee;
     text-align: center;
+    font-size: medium;
 }
 
 div.nav-card a {

@@ -12,22 +12,16 @@ I have found along with personal stories and memories about the family.
 <div class="card nav-card">
     <div class="card-header"><h5>Family Members</h5></div>
     <div class="card-body">
-        <p class="card-text">An index of pages about each family member I have researched.</p>
-    </div>
-    <div class="card-footer">
-        <a class="stretched-link"
-            href="/family-history/people/">Click to View</a>
+        <a class="stretched-link" target="blank"
+            href="/family-history/people/">Pages about each family member.</a>
     </div>
 </div>
     
 <div class="card nav-card">
     <div class="card-header"><h5>Blog Posts</h5></div>
     <div class="card-body">
-        <p class="card-text">An index of my blog posts relating to genealogy or family history.</p>
-    </div>
-    <div class="card-footer">
-        <a class="stretched-link"
-            href="/tags/family-history/">Click to View</a>
+        <a class="stretched-link" target="blank"
+            href="/tags/family-history/">My posts about genealogy or family history.</a>
     </div>
 </div>
 
@@ -46,22 +40,16 @@ permissions.
 <div class="card nav-card">
     <div class="card-header"><h5>Ancestry.com</h5></div>
     <div class="card-body">
-        <p class="card-text">Most of my US research is done here and this is currently my most up-to-date tree.</p>
-    </div>
-    <div class="card-footer">
-        <a class="stretched-link" target="blank"
-            href="https://www.ancestry.com/family-tree/tree/171228006/">Click to View</a>
+        <a class="stretched-link target - blank"
+            href="https://www.ancestry.com/family-tree/tree/171228006/">Currently my most up-to-date tree.</a>
     </div>
 </div>
 
 <div class="card nav-card">
     <div class="card-header"><h5>FindMyPast.ie</h5></div>
     <div class="card-body">
-        <p class="card-text">They have the best sources for Ireland and this is where I made my biggest breakthrough in locating my Irish grandfather.</p>
-    </div>
-    <div class="card-footer">
         <a class="stretched-link" target="_blank"
-            href="https://tree.findmypast.ie/#/trees/fe950831-9c1b-4310-9509-62fa0e3ae80e/">Click to View</a>
+            href="https://tree.findmypast.ie/#/trees/fe950831-9c1b-4310-9509-62fa0e3ae80e/">Best sources for Ireland and the UK.</a>
     </div>
 </div>
 
