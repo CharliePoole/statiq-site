@@ -1,4 +1,4 @@
-Person: Poole, Kyle Arthur
+Person: Poole, Kyle Alan
 Birth: 9/20/1993
 Living: true
 ---
