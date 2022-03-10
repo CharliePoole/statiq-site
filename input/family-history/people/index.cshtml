@@ -52,20 +52,8 @@ ArchiveOrderKey: Person
     </select>
     </div>
 
-    <div style="float: left">
     <div style="float: left; whitespace: nowrap; margin: 0 20px;">
-    <input type="checkbox" name="living" id="living" onchange="applyFilters()" checked>
-    <label for="living"></label>Show living family members</label>
-    </div>
-
-    <div style="float: left; whitespace: nowrap; margin: 0 20px;">
-    <input type="checkbox" name="deceased" id="deceased" onchange="applyFilters()" checked>
-    <label for="deceased">Show deceased family members</label>
-    </div>
-    </div>
-
-    <div style="float: left; whitespace: nowrap; margin: 0 20px;">
-    <button onclick="clearFilters()">Clear Filters</button>
+    <button onclick="clearFilter()">Clear Filter</button>
     </div>
 
     <div style="clear: both" />
@@ -78,7 +66,6 @@ ArchiveOrderKey: Person
 {
     string link = Context.GetLink(doc);
     string name = doc.GetString("Person");
-    bool living = doc.GetBool("Living");
     bool hasData = !string.IsNullOrEmpty(doc.GetString("Excerpt"));
 
     string birth = FormatDate(doc.GetString("Birth"));
@@ -87,7 +74,7 @@ ArchiveOrderKey: Person
 
     string death = FormatDate(doc.GetString("Death"));
     if (string.IsNullOrEmpty(death))
-        death = living ? "Living" : "??";
+        death = "??";
 
     if (hasData)
     {
@@ -95,14 +82,7 @@ ArchiveOrderKey: Person
             <b><a class="stretched-link" href="@link">@name</a></b>
             <br>
         
-        @if (living && birth == "??")
-        {
-            <span>Living</span>
-        }
-        else
-        {
-            <span>@birth - @death</span>
-        }
+        <span>@birth - @death</span>
 
         </div>
     }
@@ -112,14 +92,7 @@ ArchiveOrderKey: Person
             @name
             <br>
 
-        @if (living && birth == "??")
-        {
-            <span>Living</span>
-        }
-        else
-        {
-            <span>@birth - @death</span>
-        }
+        <span>@birth - @death</span>
 
         </div>
     }
@@ -149,25 +122,20 @@ ArchiveOrderKey: Person
     let cards = document.getElementsByClassName("card");
 
     let surnames = document.getElementById("surnames");
-    let living = document.getElementById("living");
-    let deceased = document.getElementById("deceased");
 
     function applyFilters()
     {
         var surname = surnames.value;
-        var showLiving = living.checked;
-        var showDeceased = deceased.checked;
 
         var card;
         for(card of cards) {
             var text = card.innerText.trim();
-            var isLiving = text.search("Living") > 0;
-            var showCard = ((isLiving) ? showLiving:showDeceased) && (surnames.selectedIndex == 0 || text.startsWith(surname));
+            var showCard = surnames.selectedIndex == 0 || text.startsWith(surname);
             card.style.display = (showCard) ? "block":"none";
         }
     }
 
-    function clearFilters()
+    function clearFilter()
     {
         surnames.selectedIndex = 0;
         living.checked = true;
