@@ -1,5 +1,5 @@
 Host: charliepoole.org
 SiteTitle: CharliePoole.org
 LinkHideExtensions: false
-PostSources: "{technical,personal}/*"
+PostSources: "{articles,technical}/*"
 LastUpdate: => { if (Document.ContainsKey("Updated")) return Document.GetDateTime("Updated"); return Document.GetDateTime("Published"); };

@@ -1,6 +1,6 @@
 Title: "Project Turnaround: XP to the Rescue?"
 Published: 3/26/2002
-Tags: [Articles, Extreme Programming]
+Tags: [Extreme Programming]
 ---
 <blockquote style="text-align:center"><b>NOTE:</b> This article is slightly modified from a <a href="/files/xp2002paper.html">workshop paper</a> I presented at XP2002.</blockquote>
 

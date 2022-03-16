@@ -3,7 +3,7 @@ Lead: "Part 2: Installing the Extension"
 Published: 30 Nov -000
 Tags: General
 ---
-In [part 1](/technical/an-engine-extension-for-running-failed-tests-part-1.html) of this article, I showed how to create an extension that would save the names of all failed tests in a file that could be used to re-run those same tests at a later time. We tested the extension by installing it temporarily in our project. Now it's time to make the extension available for more general use.
+In [part 1](/articles/an-engine-extension-for-running-failed-tests-part-1.html) of this article, I showed how to create an extension that would save the names of all failed tests in a file that could be used to re-run those same tests at a later time. We tested the extension by installing it temporarily in our project. Now it's time to make the extension available for more general use.
 
 ### How NUnit Finds Extensions
 
@@ -23,7 +23,7 @@ special/myassembly.dll  # include a specific dll in a special sub-directory
 **/                     # process all sub-directories, recursively
 ```
 
-In [part 1](/technical/an-engine-extension-for-running-failed-tests-part-1.html), we tricked NUnit into loading our extension for test purposes by creating a directory structure that made it look as if the extension had been installed as a NuGet package. We were able to do that because the ConsoleRunner package includes an `.addins` file that looks like this:
+In [part 1](/articles/an-engine-extension-for-running-failed-tests-part-1.html), we tricked NUnit into loading our extension for test purposes by creating a directory structure that made it look as if the extension had been installed as a NuGet package. We were able to do that because the ConsoleRunner package includes an `.addins` file that looks like this:
 
 ```text
 ../../NUnit.Extension.*/**/tools/     # nuget v2 layout

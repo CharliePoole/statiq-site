@@ -1,5 +1,6 @@
 Title: About
 Order: 2
+Image: images/charlie-and-ward.jpg
 ---
 #### About Me
 
@@ -7,11 +8,11 @@ On the personal level, I'm a retired guy with four children and three grandchild
 in Pouslbo, a small town across Puget Sound from Seattle. Aside from family, my interests
 include Travel, Walking, Reading, Photography and Genealogy. I love languages, speak French
 and Italian fairly well and dabble in a few others. When I was younger, I did a lot of sailing
-and skiing as well but I'm not so physically active these days.
+and skiing as well but I'm less physically active these days.
 
 Professionally, I've been developing software in one role or another since 1974. I started as
 an employee and later became an independent consultant, trainer and coach. I've worked around
-the US and in Europe and am now pretty much retired.
+the US and in Europe and am now retired.
 
 Beginning around 2001, I got involved in the Agile development movement, primarily
 Extreme Programming. I was active in the international XP conferences and had the privilege of
@@ -25,16 +26,21 @@ If you like, you can read my [informal bio](/bio.html) or take a look at [my res
 
 #### About This Site
 
-This new version of the `CharliePoole.org` site is pulling together posts, articles
-and other pages, which were originally scattered in various locations, including my
-older `CharliePoole.org` and `Charliepoole.com` sites and several blogs. It's a work
-in progress and I'll be adding "new" old stuff as well as actual new material over time.
+Initially, I created this new version of the `CharliePoole.org` site to pulling together posts,
+articles and other pages, which were originally scattered in various locations, including my
+older `CharliePoole.org` and `Charliepoole.com` sites and several blogs.
 
-Technically, the site is statically generated using [Statiq.Web](https://statiq.dev/web/)
-along with some custom additions. The principal change that's visible to users is the use
-of "Topics" in addition for posts. Topics are mutually exclusive and I intend them to make
-the site easier to use for folks who may visit for different reasons. Currently, there are
-only three Topics: Technical Posts, Family Photos and Family History but I plan to expand
-this in the future.
+Although I had originally intended to have my technical and personal posts in one place, that
+didn't turn out to be such a great idea. The audiences for the two kinds of posts are entirely
+different. So I'm now limiting this site to technical posts and articles only.
 
-To track changes in the site, you may view the [status page](/status.html).
+Technically, the site is statically generated using [Statiq.Web](https://statiq.dev/web/). The
+site is still under development and you may view the [status page](/status.html) to track  changes.
+
+#### About the Photo
+
+The photo shows me and Ward Cunningham teaching a class in test-driven development. In 2003, after
+the XP2003 conference in Genoa, we travelled in Italy and Sweden, programming together and conducting
+several training sessions. I was an experienced programmer at the time, but very new to Extreme Programming
+and Test Driven Development. Since then, I have often found myself using some idea or technique, which
+I originally learned from Ward during that time.
