@@ -1,11 +1,14 @@
 Title: NUnit Engine Version Conflicts in Visual Studio
 Published: 10/20/2020
+Updated: 03/28/2022
 Tags: [NUnit, VS Test Adapter, NUnit Engine]
 ---
 There have been some issues filed recently about exceptions being thrown when running
 NUnit tests under the VS test window. In many cases, they result in trying to install
-two different versions of the NUnit Engine into the same project directory. I'll try to 
-explain how the problem arises and what to do about it.
+two different versions of the NUnit Engine into the same project directory. I'll try to
+explain how the problem arises and what to do about it. The table at the end of this
+post will also be useful to anyone wanting to know which version of the engine is being
+used by the adapter version they have installed.
 
 There are a number of test runners one may use to execute NUnit tests. In this post I'll
 focus on the NUnit Console Runner and the Visual Studio Test Adapter. Each of them uses
@@ -42,24 +45,14 @@ with each release of the adapter.
 |      3.0        |     3.0.1      |
 |      3.2        |     3.2.1      |
 |      3.4        |     3.4.1      |
-|      3.5        |      3.5       |
-|      3.6        |      3.5       |
-|     3.6.1       |      3.5       |
+|   3.5-3.6.1     |      3.5       |
 |      3.7        |      3.6       |
-|      3.8        |      3.7       |
-|      3.9        |      3.7       |
-|      3.10       |      3.7       |
-|      3.11       |      3.7       |
-|     3.11.1      |      3.7       |
-|     3.11.2      |      3.7       |
-|      3.12       |      3.7       |
-|      3.13       |      3.7       |
-|      3.14       |      3.10      |
-|      3.15       |      3.10      |
-|     3.15.1      |      3.10      |
-|      3.16       |      3.10      |
-|     3.16.1      |      3.10      |
+|    3.8-3.13     |      3.7       |
+|   3.14-3.16.1   |      3.10      |
 |      3.17       |     3.11.1     |
+|    4.0-4.1      |      3.12      |
+|      4.2        |      3.13      |
+|     4.2.1       |     3.13.2     |
 
 You can use the above table to select compatible versions of the two runners, bearing in
 mind that the engine version is also the version of the associated console runner.
@@ -76,5 +69,4 @@ A few final notes:
 engine without any visible error. However, it's not a safe practice and a new test
 may end up triggering a hidden problem when you least expect it.
 
-2. There is __no__ compatible console runner for the 4.0 beta release of the adapter.
-Except for internal testing, the adapter is never built against pre-releases of the engine.
+2. Except for internal testing, the adapter is never built against pre-releases of the engine.
