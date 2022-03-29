@@ -23,7 +23,7 @@ We don't know much about William's early life. But in 1889, when he was 27 years
 he arrived in the US. In the 1892 census, he lists his occupation as a carpenter. He
 is living in a tenement in Brooklyn, which is not yet a part of New York City, at
 73 Schenectady Avenue. Listed immediately before his name on the page, possibly in
-the next apartment, we find the Head family. The father is another tradesman, a 
+the next apartment, we find the Head family. The father is another tradesman, a
 painter, and there are two daughters. Oddly they are both called Minnie - a common
 nickname for Mary.
 
